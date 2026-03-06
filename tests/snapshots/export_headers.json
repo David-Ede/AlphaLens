@@ -1,0 +1,16 @@
+[
+  "ticker",
+  "company_key",
+  "metric_code",
+  "period_type",
+  "fiscal_year",
+  "fiscal_quarter",
+  "period_end_date",
+  "value",
+  "unit",
+  "source_name",
+  "confidence",
+  "concept",
+  "filed_at",
+  "accession_no"
+]

@@ -1,0 +1,42 @@
+metrics:
+  - code: eps_diluted_actual
+    label: Diluted EPS
+    unit: USD/share
+    display_order: 10
+    exportable: true
+    chart_role: fair_value_driver
+
+  - code: revenue_actual
+    label: Revenue
+    unit: USD
+    display_order: 20
+    exportable: true
+    chart_role: fundamentals_table
+
+  - code: net_income_actual
+    label: Net Income
+    unit: USD
+    display_order: 30
+    exportable: true
+    chart_role: fundamentals_table
+
+  - code: shares_diluted_actual
+    label: Diluted Shares
+    unit: shares
+    display_order: 40
+    exportable: true
+    chart_role: fundamentals_table
+
+  - code: dividend_cash
+    label: Cash Dividend
+    unit: USD/share
+    display_order: 50
+    exportable: true
+    chart_role: actions_table
+
+  - code: eps_estimate_mean
+    label: EPS Estimate Mean
+    unit: USD/share
+    display_order: 60
+    exportable: true
+    chart_role: estimate_driver

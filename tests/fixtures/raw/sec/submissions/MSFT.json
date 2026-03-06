@@ -1,0 +1,19 @@
+{
+  "ticker": "MSFT",
+  "cik": "0000789019",
+  "issuer_name": "Microsoft Corp",
+  "exchange": "NASDAQ",
+  "fiscal_year_end_mmdd": "0630",
+  "recent_filings": [
+    {
+      "form": "10-K",
+      "filed": "2025-11-01",
+      "accession_no": "0000789019-25-000001"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2025-08-01",
+      "accession_no": "0000789019-25-000002"
+    }
+  ]
+}

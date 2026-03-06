@@ -1,0 +1,23 @@
+{
+  "ticker": "KO",
+  "as_of_date": "2026-03-01",
+  "period": "annual",
+  "rows": [
+    {
+      "target_fiscal_year": 2026,
+      "target_period_end_date": "2026-12-31",
+      "epsMean": 4.9,
+      "epsHigh": 5.3,
+      "epsLow": 4.5,
+      "analystCount": 20
+    },
+    {
+      "target_fiscal_year": 2027,
+      "target_period_end_date": "2027-12-31",
+      "epsMean": 5.4,
+      "epsHigh": 5.8,
+      "epsLow": 5.0,
+      "analystCount": 18
+    }
+  ]
+}

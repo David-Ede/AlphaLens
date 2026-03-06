@@ -1,0 +1,19 @@
+{
+  "ticker": "KO",
+  "cik": "0000021344",
+  "issuer_name": "Coca-Cola Co",
+  "exchange": "NYSE",
+  "fiscal_year_end_mmdd": "1231",
+  "recent_filings": [
+    {
+      "form": "10-K",
+      "filed": "2025-11-01",
+      "accession_no": "0000021344-25-000001"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2025-08-01",
+      "accession_no": "0000021344-25-000002"
+    }
+  ]
+}

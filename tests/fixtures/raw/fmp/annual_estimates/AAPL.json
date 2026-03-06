@@ -1,0 +1,23 @@
+{
+  "ticker": "AAPL",
+  "as_of_date": "2026-03-01",
+  "period": "annual",
+  "rows": [
+    {
+      "target_fiscal_year": 2026,
+      "target_period_end_date": "2026-12-31",
+      "epsMean": 8.0,
+      "epsHigh": 8.4,
+      "epsLow": 7.6,
+      "analystCount": 20
+    },
+    {
+      "target_fiscal_year": 2027,
+      "target_period_end_date": "2027-12-31",
+      "epsMean": 8.5,
+      "epsHigh": 8.9,
+      "epsLow": 8.1,
+      "analystCount": 18
+    }
+  ]
+}

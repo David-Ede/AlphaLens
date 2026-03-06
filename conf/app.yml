@@ -1,0 +1,43 @@
+app:
+  name: alphalens
+  package: fg
+  version: 0.1.0
+  env: local
+  demo_mode_default: true
+
+data:
+  root: ./data
+  duckdb_path: ./data/fg.duckdb
+  bronze_dir: ./data/bronze
+  silver_dir: ./data/silver
+  gold_dir: ./data/gold
+  cache_dir: ./data/cache
+  export_dir: ./data/exports
+  log_dir: ./data/logs
+
+cache:
+  price_ttl_hours: 24
+  estimate_ttl_hours: 24
+
+freshness:
+  price_days: 3
+  sec_days: 120
+  estimate_days: 14
+
+ui:
+  default_lookback_years: 20
+  lookback_options: [5, 10, 15, 20]
+  default_pe_method: static_15
+  default_show_estimates: true
+  default_theme: plotly_white
+  demo_default_ticker: AAPL
+
+valuation:
+  static_pe_default: 15.0
+  forecast_years: 2
+  normal_pe_min_years: 3
+  normal_pe_clip_quantiles: [0.05, 0.95]
+
+scheduling:
+  warm_watchlist_name: core
+  nightly_refresh_enabled: true

@@ -1,0 +1,29 @@
+concepts:
+  eps_diluted_actual:
+    preferred:
+      - us-gaap:EarningsPerShareDiluted
+      - ifrs-full:BasicAndDilutedEarningsLossPerShare
+    fallback: []
+    derive:
+      numerator: us-gaap:NetIncomeLoss
+      denominator: us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding
+
+  revenue_actual:
+    preferred:
+      - us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax
+      - us-gaap:SalesRevenueNet
+      - us-gaap:Revenues
+    fallback: []
+    derive: null
+
+  net_income_actual:
+    preferred:
+      - us-gaap:NetIncomeLoss
+    fallback: []
+    derive: null
+
+  shares_diluted_actual:
+    preferred:
+      - us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding
+    fallback: []
+    derive: null

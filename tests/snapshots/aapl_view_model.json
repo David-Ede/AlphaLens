@@ -1,0 +1,6 @@
+{
+  "top_level_keys": ["kpis", "meta", "series", "tables", "warnings"],
+  "meta_keys": ["built_at", "company_key", "issuer_name", "lookback_years", "pe_method", "ticker"],
+  "series_keys": ["eps_bars", "fair_value_actual", "fair_value_estimate", "normal_pe_value", "price"],
+  "table_keys": ["annual", "audit", "quality_issues", "quarterly"]
+}

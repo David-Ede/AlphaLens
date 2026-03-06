@@ -1,0 +1,3 @@
+{
+  "trace_order": ["price", "fair_value_actual", "fair_value_estimate"]
+}
