@@ -3,7 +3,7 @@ app:
   package: fg
   version: 0.1.0
   env: local
-  demo_mode_default: true
+  demo_mode_default: false
 
 data:
   root: ./data

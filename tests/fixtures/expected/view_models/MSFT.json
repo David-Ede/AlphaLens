@@ -1,37 +1,37 @@
 {
   "meta": {
-    "ticker": "AAPL",
-    "company_key": "0000320193",
-    "issuer_name": "Apple Inc.",
+    "ticker": "MSFT",
+    "company_key": "0000789019",
+    "issuer_name": "Microsoft Corp",
     "lookback_years": 20,
     "pe_method": "static_15",
-    "built_at": "2026-03-06T19:43:36.791652+00:00"
+    "built_at": "2026-03-06T19:35:24.149359+00:00"
   },
   "kpis": {
-    "company_key": "0000320193",
+    "company_key": "0000789019",
     "as_of_date": "2026-03-06",
-    "last_price": 227.3,
+    "last_price": 267.3,
     "last_price_date": "2026-02-27",
-    "latest_actual_eps": 7.45,
-    "latest_actual_eps_period_end": "2025-09-30",
-    "current_pe": 30.51006711409396,
+    "latest_actual_eps": 8.45,
+    "latest_actual_eps_period_end": "2025-06-30",
+    "current_pe": 31.633136094674562,
     "selected_pe": 15.0,
-    "fair_value_now": 111.75,
-    "valuation_gap_pct": 1.0340044742729309,
+    "fair_value_now": 126.74999999999999,
+    "valuation_gap_pct": 1.1088757396449707,
     "last_filing_date": "2026-01-30",
     "last_estimate_snapshot_date": "2026-03-01",
     "data_quality_score": 100,
-    "built_at": "2026-03-06T19:43:36.581327+00:00"
+    "built_at": "2026-03-06T19:35:23.906391+00:00"
   },
   "series": {
     "price": [
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-01-31",
-        "y_value": 140.0,
+        "y_value": 180.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -45,17 +45,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-01-31",
-          "value": 140.0
+          "value": 180.0
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-02-28",
-        "y_value": 140.9,
+        "y_value": 180.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -69,17 +69,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-02-28",
-          "value": 140.9
+          "value": 180.9
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-03-30",
-        "y_value": 141.8,
+        "y_value": 181.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -93,17 +93,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-03-30",
-          "value": 141.8
+          "value": 181.8
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-04-30",
-        "y_value": 142.7,
+        "y_value": 182.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -117,17 +117,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-04-30",
-          "value": 142.7
+          "value": 182.7
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-05-31",
-        "y_value": 143.6,
+        "y_value": 183.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -141,17 +141,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-05-31",
-          "value": 143.6
+          "value": 183.6
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-06-29",
-        "y_value": 144.5,
+        "y_value": 184.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -165,17 +165,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-06-29",
-          "value": 144.5
+          "value": 184.5
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-07-31",
-        "y_value": 145.4,
+        "y_value": 185.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -189,17 +189,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-07-31",
-          "value": 145.4
+          "value": 185.4
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-08-31",
-        "y_value": 146.3,
+        "y_value": 186.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -213,17 +213,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-08-31",
-          "value": 146.3
+          "value": 186.3
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-09-28",
-        "y_value": 147.2,
+        "y_value": 187.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -237,17 +237,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-09-28",
-          "value": 147.2
+          "value": 187.2
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.672042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-10-31",
-        "y_value": 148.1,
+        "y_value": 188.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -261,17 +261,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-10-31",
-          "value": 148.1
+          "value": 188.1
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-11-30",
-        "y_value": 149.0,
+        "y_value": 189.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -285,17 +285,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-11-30",
-          "value": 149.0
+          "value": 189.0
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2018-12-31",
-        "y_value": 149.9,
+        "y_value": 189.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -309,17 +309,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2018-12-31",
-          "value": 149.9
+          "value": 189.9
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-01-31",
-        "y_value": 150.8,
+        "y_value": 190.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -333,17 +333,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-01-31",
-          "value": 150.8
+          "value": 190.8
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-02-28",
-        "y_value": 151.7,
+        "y_value": 191.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -357,17 +357,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-02-28",
-          "value": 151.7
+          "value": 191.7
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-03-29",
-        "y_value": 152.6,
+        "y_value": 192.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -381,17 +381,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-03-29",
-          "value": 152.6
+          "value": 192.6
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-04-30",
-        "y_value": 153.5,
+        "y_value": 193.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -405,17 +405,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-04-30",
-          "value": 153.5
+          "value": 193.5
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-05-31",
-        "y_value": 154.4,
+        "y_value": 194.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -429,17 +429,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-05-31",
-          "value": 154.4
+          "value": 194.4
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-06-28",
-        "y_value": 155.3,
+        "y_value": 195.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -453,17 +453,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-06-28",
-          "value": 155.3
+          "value": 195.3
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-07-31",
-        "y_value": 156.2,
+        "y_value": 196.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -477,17 +477,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-07-31",
-          "value": 156.2
+          "value": 196.2
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-08-30",
-        "y_value": 157.1,
+        "y_value": 197.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -501,17 +501,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-08-30",
-          "value": 157.1
+          "value": 197.1
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-09-30",
-        "y_value": 158.0,
+        "y_value": 198.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -525,17 +525,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-09-30",
-          "value": 158.0
+          "value": 198.0
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-10-31",
-        "y_value": 158.9,
+        "y_value": 198.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -549,17 +549,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-10-31",
-          "value": 158.9
+          "value": 198.9
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-11-29",
-        "y_value": 159.8,
+        "y_value": 199.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -573,17 +573,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-11-29",
-          "value": 159.8
+          "value": 199.8
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2019-12-31",
-        "y_value": 160.7,
+        "y_value": 200.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -597,17 +597,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2019-12-31",
-          "value": 160.7
+          "value": 200.7
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-01-31",
-        "y_value": 161.6,
+        "y_value": 201.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -621,17 +621,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-01-31",
-          "value": 161.6
+          "value": 201.6
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-02-28",
-        "y_value": 162.5,
+        "y_value": 202.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -645,17 +645,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-02-28",
-          "value": 162.5
+          "value": 202.5
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-03-31",
-        "y_value": 163.4,
+        "y_value": 203.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -669,17 +669,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-03-31",
-          "value": 163.4
+          "value": 203.4
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-04-30",
-        "y_value": 164.3,
+        "y_value": 204.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -693,17 +693,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-04-30",
-          "value": 164.3
+          "value": 204.3
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-05-29",
-        "y_value": 165.2,
+        "y_value": 205.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -717,17 +717,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-05-29",
-          "value": 165.2
+          "value": 205.2
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-06-30",
-        "y_value": 166.1,
+        "y_value": 206.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -741,17 +741,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-06-30",
-          "value": 166.1
+          "value": 206.1
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-07-31",
-        "y_value": 167.0,
+        "y_value": 207.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -765,17 +765,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-07-31",
-          "value": 167.0
+          "value": 207.0
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-08-31",
-        "y_value": 167.9,
+        "y_value": 207.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -789,17 +789,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-08-31",
-          "value": 167.9
+          "value": 207.9
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-09-30",
-        "y_value": 168.8,
+        "y_value": 208.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -813,17 +813,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-09-30",
-          "value": 168.8
+          "value": 208.8
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-10-30",
-        "y_value": 169.7,
+        "y_value": 209.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -837,17 +837,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-10-30",
-          "value": 169.7
+          "value": 209.7
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-11-30",
-        "y_value": 170.6,
+        "y_value": 210.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -861,17 +861,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-11-30",
-          "value": 170.6
+          "value": 210.6
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2020-12-31",
-        "y_value": 171.5,
+        "y_value": 211.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -885,17 +885,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2020-12-31",
-          "value": 171.5
+          "value": 211.5
         },
-        "built_at": "2026-03-06T19:43:36.428834+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-01-29",
-        "y_value": 172.4,
+        "y_value": 212.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -909,17 +909,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-01-29",
-          "value": 172.4
+          "value": 212.4
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-02-26",
-        "y_value": 173.3,
+        "y_value": 213.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -933,17 +933,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-02-26",
-          "value": 173.3
+          "value": 213.3
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-03-31",
-        "y_value": 174.2,
+        "y_value": 214.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -957,17 +957,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-03-31",
-          "value": 174.2
+          "value": 214.2
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-04-30",
-        "y_value": 175.1,
+        "y_value": 215.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -981,17 +981,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-04-30",
-          "value": 175.1
+          "value": 215.1
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-05-31",
-        "y_value": 176.0,
+        "y_value": 216.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1005,17 +1005,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-05-31",
-          "value": 176.0
+          "value": 216.0
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-06-30",
-        "y_value": 176.9,
+        "y_value": 216.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1029,17 +1029,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-06-30",
-          "value": 176.9
+          "value": 216.9
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-07-30",
-        "y_value": 177.8,
+        "y_value": 217.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1053,17 +1053,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-07-30",
-          "value": 177.8
+          "value": 217.8
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-08-31",
-        "y_value": 178.7,
+        "y_value": 218.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1077,17 +1077,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-08-31",
-          "value": 178.7
+          "value": 218.7
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-09-30",
-        "y_value": 179.6,
+        "y_value": 219.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1101,17 +1101,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-09-30",
-          "value": 179.6
+          "value": 219.6
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-10-29",
-        "y_value": 180.5,
+        "y_value": 220.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1125,17 +1125,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-10-29",
-          "value": 180.5
+          "value": 220.5
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-11-30",
-        "y_value": 181.4,
+        "y_value": 221.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1149,17 +1149,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-11-30",
-          "value": 181.4
+          "value": 221.4
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2021-12-31",
-        "y_value": 182.3,
+        "y_value": 222.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1173,17 +1173,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2021-12-31",
-          "value": 182.3
+          "value": 222.3
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-01-31",
-        "y_value": 183.2,
+        "y_value": 223.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1197,17 +1197,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-01-31",
-          "value": 183.2
+          "value": 223.2
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-02-28",
-        "y_value": 184.1,
+        "y_value": 224.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1221,17 +1221,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-02-28",
-          "value": 184.1
+          "value": 224.1
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-03-31",
-        "y_value": 185.0,
+        "y_value": 225.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1245,17 +1245,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-03-31",
-          "value": 185.0
+          "value": 225.0
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-04-29",
-        "y_value": 185.9,
+        "y_value": 225.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1269,17 +1269,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-04-29",
-          "value": 185.9
+          "value": 225.9
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-05-31",
-        "y_value": 186.8,
+        "y_value": 226.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1293,17 +1293,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-05-31",
-          "value": 186.8
+          "value": 226.8
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-06-30",
-        "y_value": 187.7,
+        "y_value": 227.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1317,17 +1317,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-06-30",
-          "value": 187.7
+          "value": 227.7
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-07-29",
-        "y_value": 188.6,
+        "y_value": 228.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1341,17 +1341,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-07-29",
-          "value": 188.6
+          "value": 228.6
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-08-31",
-        "y_value": 189.5,
+        "y_value": 229.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1365,17 +1365,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-08-31",
-          "value": 189.5
+          "value": 229.5
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-09-30",
-        "y_value": 190.4,
+        "y_value": 230.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1389,17 +1389,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-09-30",
-          "value": 190.4
+          "value": 230.4
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-10-31",
-        "y_value": 191.3,
+        "y_value": 231.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1413,17 +1413,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-10-31",
-          "value": 191.3
+          "value": 231.3
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-11-30",
-        "y_value": 192.2,
+        "y_value": 232.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1437,17 +1437,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-11-30",
-          "value": 192.2
+          "value": 232.2
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2022-12-30",
-        "y_value": 193.1,
+        "y_value": 233.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1461,17 +1461,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2022-12-30",
-          "value": 193.1
+          "value": 233.1
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-01-31",
-        "y_value": 194.0,
+        "y_value": 234.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1485,17 +1485,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-01-31",
-          "value": 194.0
+          "value": 234.0
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-02-28",
-        "y_value": 194.9,
+        "y_value": 234.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1509,17 +1509,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-02-28",
-          "value": 194.9
+          "value": 234.9
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-03-31",
-        "y_value": 195.8,
+        "y_value": 235.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1533,17 +1533,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-03-31",
-          "value": 195.8
+          "value": 235.8
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.673040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-04-28",
-        "y_value": 196.7,
+        "y_value": 236.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1557,17 +1557,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-04-28",
-          "value": 196.7
+          "value": 236.7
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-05-31",
-        "y_value": 197.6,
+        "y_value": 237.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1581,17 +1581,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-05-31",
-          "value": 197.6
+          "value": 237.6
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-06-30",
-        "y_value": 198.5,
+        "y_value": 238.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1605,17 +1605,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-06-30",
-          "value": 198.5
+          "value": 238.5
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-07-31",
-        "y_value": 199.4,
+        "y_value": 239.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1629,17 +1629,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-07-31",
-          "value": 199.4
+          "value": 239.4
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-08-31",
-        "y_value": 200.3,
+        "y_value": 240.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1653,17 +1653,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-08-31",
-          "value": 200.3
+          "value": 240.3
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-09-29",
-        "y_value": 201.2,
+        "y_value": 241.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1677,17 +1677,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-09-29",
-          "value": 201.2
+          "value": 241.2
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-10-31",
-        "y_value": 202.1,
+        "y_value": 242.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1701,17 +1701,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-10-31",
-          "value": 202.1
+          "value": 242.1
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-11-30",
-        "y_value": 203.0,
+        "y_value": 243.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1725,17 +1725,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-11-30",
-          "value": 203.0
+          "value": 243.0
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2023-12-29",
-        "y_value": 203.9,
+        "y_value": 243.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1749,17 +1749,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2023-12-29",
-          "value": 203.9
+          "value": 243.9
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-01-31",
-        "y_value": 204.8,
+        "y_value": 244.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1773,17 +1773,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-01-31",
-          "value": 204.8
+          "value": 244.8
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-02-29",
-        "y_value": 205.7,
+        "y_value": 245.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1797,17 +1797,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-02-29",
-          "value": 205.7
+          "value": 245.7
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-03-29",
-        "y_value": 206.6,
+        "y_value": 246.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1821,17 +1821,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-03-29",
-          "value": 206.6
+          "value": 246.6
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-04-30",
-        "y_value": 207.5,
+        "y_value": 247.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1845,17 +1845,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-04-30",
-          "value": 207.5
+          "value": 247.5
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-05-31",
-        "y_value": 208.4,
+        "y_value": 248.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1869,17 +1869,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-05-31",
-          "value": 208.4
+          "value": 248.4
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-06-28",
-        "y_value": 209.3,
+        "y_value": 249.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1893,17 +1893,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-06-28",
-          "value": 209.3
+          "value": 249.3
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-07-31",
-        "y_value": 210.2,
+        "y_value": 250.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1917,17 +1917,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-07-31",
-          "value": 210.2
+          "value": 250.2
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-08-30",
-        "y_value": 211.1,
+        "y_value": 251.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1941,17 +1941,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-08-30",
-          "value": 211.1
+          "value": 251.1
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-09-30",
-        "y_value": 212.0,
+        "y_value": 252.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1965,17 +1965,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-09-30",
-          "value": 212.0
+          "value": 252.0
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-10-31",
-        "y_value": 212.9,
+        "y_value": 252.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -1989,17 +1989,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-10-31",
-          "value": 212.9
+          "value": 252.9
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-11-29",
-        "y_value": 213.8,
+        "y_value": 253.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2013,17 +2013,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-11-29",
-          "value": 213.8
+          "value": 253.8
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2024-12-31",
-        "y_value": 214.7,
+        "y_value": 254.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2037,17 +2037,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2024-12-31",
-          "value": 214.7
+          "value": 254.7
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-01-31",
-        "y_value": 215.6,
+        "y_value": 255.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2061,17 +2061,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-01-31",
-          "value": 215.6
+          "value": 255.6
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-02-28",
-        "y_value": 216.5,
+        "y_value": 256.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2085,17 +2085,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-02-28",
-          "value": 216.5
+          "value": 256.5
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-03-31",
-        "y_value": 217.4,
+        "y_value": 257.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2109,17 +2109,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-03-31",
-          "value": 217.4
+          "value": 257.4
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-04-30",
-        "y_value": 218.3,
+        "y_value": 258.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2133,17 +2133,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-04-30",
-          "value": 218.3
+          "value": 258.3
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-05-30",
-        "y_value": 219.2,
+        "y_value": 259.2,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2157,17 +2157,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-05-30",
-          "value": 219.2
+          "value": 259.2
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-06-30",
-        "y_value": 220.1,
+        "y_value": 260.1,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2181,17 +2181,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-06-30",
-          "value": 220.1
+          "value": 260.1
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-07-31",
-        "y_value": 221.0,
+        "y_value": 261.0,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2205,17 +2205,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-07-31",
-          "value": 221.0
+          "value": 261.0
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-08-29",
-        "y_value": 221.9,
+        "y_value": 261.9,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2229,17 +2229,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-08-29",
-          "value": 221.9
+          "value": 261.9
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-09-30",
-        "y_value": 222.8,
+        "y_value": 262.8,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2253,17 +2253,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-09-30",
-          "value": 222.8
+          "value": 262.8
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-10-31",
-        "y_value": 223.7,
+        "y_value": 263.7,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2277,17 +2277,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-10-31",
-          "value": 223.7
+          "value": 263.7
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-11-28",
-        "y_value": 224.6,
+        "y_value": 264.6,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2301,17 +2301,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-11-28",
-          "value": 224.6
+          "value": 264.6
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2025-12-31",
-        "y_value": 225.5,
+        "y_value": 265.5,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2325,17 +2325,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2025-12-31",
-          "value": 225.5
+          "value": 265.5
         },
-        "built_at": "2026-03-06T19:43:36.429831+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2026-01-30",
-        "y_value": 226.4,
+        "y_value": 266.4,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2349,17 +2349,17 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2026-01-30",
-          "value": 226.4
+          "value": 266.4
         },
-        "built_at": "2026-03-06T19:43:36.430828+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "price",
         "x_date": "2026-02-27",
-        "y_value": 227.3,
+        "y_value": 267.3,
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
@@ -2373,213 +2373,213 @@
           "snapshot_date": null,
           "source": "yahoo",
           "trade_date": "2026-02-27",
-          "value": 227.3
+          "value": 267.3
         },
-        "built_at": "2026-03-06T19:43:36.430828+00:00"
+        "built_at": "2026-03-06T19:35:23.674038+00:00"
       }
     ],
     "fair_value_actual": [
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2018-09-30",
-        "y_value": 75.0,
+        "x_date": "2018-06-30",
+        "y_value": 90.0,
         "fiscal_year": 2018.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2018-000010",
+          "accession_no": "0000789019-2018-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2019-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2018-09-30",
+          "period_end": "2018-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 5.0
+          "value": 6.0
         },
-        "built_at": "2026-03-06T19:43:36.416866+00:00"
+        "built_at": "2026-03-06T19:35:23.663042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2019-09-30",
-        "y_value": 80.25,
+        "x_date": "2019-06-30",
+        "y_value": 95.25,
         "fiscal_year": 2019.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2019-000010",
+          "accession_no": "0000789019-2019-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2020-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2019-09-30",
+          "period_end": "2019-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 5.35
+          "value": 6.35
         },
-        "built_at": "2026-03-06T19:43:36.416866+00:00"
+        "built_at": "2026-03-06T19:35:23.663042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2020-09-30",
-        "y_value": 85.5,
+        "x_date": "2020-06-30",
+        "y_value": 100.5,
         "fiscal_year": 2020.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2020-000010",
+          "accession_no": "0000789019-2020-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2021-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2020-09-30",
+          "period_end": "2020-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 5.7
+          "value": 6.7
         },
-        "built_at": "2026-03-06T19:43:36.416866+00:00"
+        "built_at": "2026-03-06T19:35:23.663042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2021-09-30",
-        "y_value": 90.75,
+        "x_date": "2021-06-30",
+        "y_value": 105.75,
         "fiscal_year": 2021.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2021-000010",
+          "accession_no": "0000789019-2021-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2022-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2021-09-30",
+          "period_end": "2021-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 6.05
+          "value": 7.05
         },
-        "built_at": "2026-03-06T19:43:36.417864+00:00"
+        "built_at": "2026-03-06T19:35:23.663042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2022-09-30",
-        "y_value": 96.0,
+        "x_date": "2022-06-30",
+        "y_value": 111.0,
         "fiscal_year": 2022.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2022-000010",
+          "accession_no": "0000789019-2022-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2023-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2022-09-30",
+          "period_end": "2022-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 6.4
+          "value": 7.4
         },
-        "built_at": "2026-03-06T19:43:36.417864+00:00"
+        "built_at": "2026-03-06T19:35:23.663042+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2023-09-30",
-        "y_value": 101.25,
+        "x_date": "2023-06-30",
+        "y_value": 116.25,
         "fiscal_year": 2023.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2023-000010",
+          "accession_no": "0000789019-2023-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2024-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2023-09-30",
+          "period_end": "2023-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 6.75
+          "value": 7.75
         },
-        "built_at": "2026-03-06T19:43:36.417864+00:00"
+        "built_at": "2026-03-06T19:35:23.664040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2024-09-30",
-        "y_value": 106.5,
+        "x_date": "2024-06-30",
+        "y_value": 121.5,
         "fiscal_year": 2024.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2024-000010",
+          "accession_no": "0000789019-2024-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2025-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2024-09-30",
+          "period_end": "2024-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 7.1
+          "value": 8.1
         },
-        "built_at": "2026-03-06T19:43:36.417864+00:00"
+        "built_at": "2026-03-06T19:35:23.664040+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_actual",
-        "x_date": "2025-09-30",
-        "y_value": 111.75,
+        "x_date": "2025-06-30",
+        "y_value": 126.74999999999999,
         "fiscal_year": 2025.0,
         "is_estimate": false,
         "display_style": "solid",
         "tooltip_payload_json": {
-          "accession_no": "0000320193-2025-000010",
+          "accession_no": "0000789019-2025-000010",
           "concept": "us-gaap:EarningsPerShareDiluted",
           "confidence": "reported",
           "filed_at": "2026-01-30",
           "metric": "eps_diluted_actual",
-          "period_end": "2025-09-30",
+          "period_end": "2025-06-30",
           "snapshot_date": null,
           "source": null,
           "trade_date": null,
-          "value": 7.45
+          "value": 8.45
         },
-        "built_at": "2026-03-06T19:43:36.417864+00:00"
+        "built_at": "2026-03-06T19:35:23.664040+00:00"
       }
     ],
     "fair_value_estimate": [
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_estimate",
         "x_date": "2026-12-31",
-        "y_value": 120.0,
+        "y_value": 135.0,
         "fiscal_year": 2026.0,
         "is_estimate": true,
         "display_style": "dashed",
@@ -2593,17 +2593,17 @@
           "snapshot_date": "2026-03-01",
           "source": "fmp",
           "trade_date": null,
-          "value": 8.0
+          "value": 9.0
         },
-        "built_at": "2026-03-06T19:43:36.422850+00:00"
+        "built_at": "2026-03-06T19:35:23.668030+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "pe_method": "static_15",
         "series_name": "fair_value_estimate",
         "x_date": "2027-12-31",
-        "y_value": 127.5,
+        "y_value": 142.5,
         "fiscal_year": 2027.0,
         "is_estimate": true,
         "display_style": "dashed",
@@ -2617,1714 +2617,1714 @@
           "snapshot_date": "2026-03-01",
           "source": "fmp",
           "trade_date": null,
-          "value": 8.5
+          "value": 9.5
         },
-        "built_at": "2026-03-06T19:43:36.422850+00:00"
+        "built_at": "2026-03-06T19:35:23.668030+00:00"
       }
     ],
     "normal_pe_value": [],
     "eps_bars": [
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
-        "eps_actual": 5.0,
+        "period_end_date": "2018-06-30",
+        "eps_actual": 6.0,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2019-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
-        "eps_actual": 5.35,
+        "period_end_date": "2019-06-30",
+        "eps_actual": 6.35,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2020-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
-        "eps_actual": 5.7,
+        "period_end_date": "2020-06-30",
+        "eps_actual": 6.7,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2021-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
-        "eps_actual": 6.05,
+        "period_end_date": "2021-06-30",
+        "eps_actual": 7.05,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2022-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
-        "eps_actual": 6.4,
+        "period_end_date": "2022-06-30",
+        "eps_actual": 7.4,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2023-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
-        "eps_actual": 6.75,
+        "period_end_date": "2023-06-30",
+        "eps_actual": 7.75,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2024-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
-        "eps_actual": 7.1,
+        "period_end_date": "2024-06-30",
+        "eps_actual": 8.1,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2025-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
-        "eps_actual": 7.45,
+        "period_end_date": "2025-06-30",
+        "eps_actual": 8.45,
         "eps_estimate": NaN,
         "is_estimate": false,
         "confidence": "reported",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2026-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2026,
         "period_end_date": "2026-12-31",
         "eps_actual": NaN,
-        "eps_estimate": 8.0,
+        "eps_estimate": 9.0,
         "is_estimate": true,
         "confidence": "estimate",
         "concept": "vendor_estimate",
         "filed_at": NaN,
         "snapshot_date": "2026-03-01",
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "lookback_years": 20,
         "fiscal_year": 2027,
         "period_end_date": "2027-12-31",
         "eps_actual": NaN,
-        "eps_estimate": 8.5,
+        "eps_estimate": 9.5,
         "is_estimate": true,
         "confidence": "estimate",
         "concept": "vendor_estimate",
         "filed_at": NaN,
         "snapshot_date": "2026-03-01",
-        "built_at": "2026-03-06T19:43:36.490669+00:00"
+        "built_at": "2026-03-06T19:35:23.725877+00:00"
       }
     ]
   },
   "tables": {
     "annual": [
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
-        "value": 5.0,
+        "value": 6.0,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "376fee899349d0b69e513033953c8d5b9aa6269b5cfee7d7f2124944778ceb79",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "64bfe526595946ca68b31563aed5abfe469f98dbaa4ac33c634333cd445ec344",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
-        "value": 5.35,
+        "value": 6.35,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "77601227d468b755bb7acd85e20b843fb4987392ca7fef2a8f3891ee22812079",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "46f69b8a32ff1bd11cf4694a10c84d54ae7e160709c5285bd29b325723b45784",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
-        "value": 5.7,
+        "value": 6.7,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "94d0404151f05e00169a655299abf88f4d2dd8927d9d198bb2fb94584404b2c6",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "4d3ad16bd01b55489be70c2c2940e20df552b44188a117d666bd8e4c4897ab9e",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
-        "value": 6.05,
+        "value": 7.05,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0034adfba38ef216b42eda0e0950d9a2532509932eb04ab70aca86def8517321",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "551e384aa19b0c949123a666aa56fd74d5265a91c2cdc2881d0d773ac3f43770",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
-        "value": 6.4,
+        "value": 7.4,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c28ba36a7c48823b5975c4420aee0f8ffacd3cc1a316f4ac37cbbde947e2a5ff",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "7b9319c8965e65c58b27338c1d0442471242282f72a622cd1fdc146eb154c62e",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
-        "value": 6.75,
+        "value": 7.75,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "ebf7776300fb7dea8a77f1796bd9eee1c5f6818afabcd987d28f0bf6fd9f0cdd",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "1c3b877b8ab2b6fdbdd0bbc009bed041ef3b0fe6ffd49a3d475952fb016a9be2",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
-        "value": 7.1,
+        "value": 8.1,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c986f2f95b0e6577e9776af7a55ab6c15fee42e36f474615160f1de27886c50d",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "1fd8bb8969c8fc6026debf72a4ddbeb642f7025fb7503873a4c39a73caf7c3a2",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
-        "value": 7.45,
+        "value": 8.45,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "6fe83df8e8df2bb6c077529c79d9a1d080c5b3dbb45a0cf5ec88721fcce955aa",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "6810db4fcc55422ac5d0165605554d76be8c03988dd2581afd8c1b1d4321d006",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
         "value": 20000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "1c975d59bfcf2fa906b788c88242e248e5c3c0f044a27396482ef88c2a7cfb40",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "952cc836e117609a147a73411423825d18df0f14ff20ff071edfd5689d1550bf",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
         "value": 21500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "f7e46856e9992ab20690166c893af8c77d0548d5583cc11132dd544f58c92965",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "a95eb1279a1d44eb88427c3cbf44d3edb04b039b4a5c0961c5fb526f08a7a0c9",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
         "value": 23000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "27d69575bd7aeafa98432d61ee40d6ce021b5640e3df92ce3b43d6b59a0d872a",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "5386ab8e3e9c8efe756848d72d6caf8d3d9d12acf01d0381d01feb333687012a",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
         "value": 24500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "9afc41d234cdf7d9c1e8f282d70e3cd3af329150cb4c52251d4fbb4155fabae8",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "92ee1ce46802b1fba37cb3179b718cc4c72d4c220f7f9688c32d6dc6ca110520",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
         "value": 26000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "3def351554c98f76abb46b4008a55d5cadfb7179f2e49ded4c6b5c62a4bf7475",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "e8aaf194c3a05943e3899d2319a787f879cb044d55359f35a757cd3ed2c7a6ca",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
         "value": 27500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "94b328db9836d3f70633a92856a7516a7fd834ebf65bb73ba995acbb9283f12b",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "b5214e420cd64e62bb7fc30db2e73da7da5107d9e3e483dfd510a2794a22d31e",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
         "value": 29000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c9720786f931ac17a995783116acbf58f71156d377d15764800be7f466d28de1",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "184fd99f8090a87dbeae5cd957dff6a8a9873135dc0cdefb92f8b6df2fefcf4b",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
         "value": 30500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "817fe516fd1578f6de370dedd7357a096bd08ecc1bccc0c37a7a6a5c5a4a9ba0",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "3d1aa1f3c97e6235dc5b490fe542eff967e29d5d0c225a64f89cfb2fe9c532ca",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
         "value": 100000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "2961328f06f3c057598191f06574d8f18bb33cc817ee61891f4df38707277ff6",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "26cebad4d80db4ac06ba8e275958bb1bf82d45eca366c3786774e9d86bc6d897",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
         "value": 104000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "888d4550b6aa3c8123db40a2234e08d11bae1f32561b4e36b221f05a32d7ec8e",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "4310fc177d522cc19af22c53e691b95f6106c36c2b7ef9b13146ca7cbaabf3c6",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
         "value": 108000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0087f24aefe33065e564bcfcb874ae9e025b077a8cd8b58ec8c4028b94fcbdfe",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "4daeae22ec5d77686779f717b4057dbe966be0cb1976c564a248f71bd27d5c39",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
         "value": 112000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "f299322f816aeeba671ae9c862f4e23c1281d8abee7a90f1ec176acae342e5e7",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "522dcf942b2b02cda7b8e925337cc34d2fa45ab070e36d53412ee3c51912f537",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
         "value": 116000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "ae3a5cb5d050454e913d8a9ac1cfdb56c0b547a237783e37c4167fda7c07ae36",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "292b997b8ec96a53956b8914f9f032c6c9c86ddb2e20834b5f59e02556ec7502",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
         "value": 120000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "d1e6a04b590938ddf580572d900ab0a769075f24ad09f9ef4c766ca5987483f4",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "35b2900cdc68d7b844171fff7ceeedb789c08bb410f13851b85116c208bf4cb4",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
         "value": 124000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "bc26e07f83283843f28465526ad8de147e4e97916789591113b045c69994e673",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "94b09fadf1dd1365534cb05f260d11ced7452e021dd9b71869b962daebb8cd35",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
         "value": 128000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "21336d5427de094fa6703fecba0c94704b9322977c1003f75d1c5f1b77566148",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "6a0f4ca3291812de79486dffad891d9a48f70aa8a3105fa0f6a5d99f9ba68af7",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
         "value": 16000000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "433572f37a6e3b7a4a72eae011a0aba6bebd6d6200f59555ef02390446d327ed",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "441371d7a560ce243aecdab9650d010a236dd66fb3684c856a8b4493a953db58",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
         "value": 15880000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0ba99097466d62bb553cc4980c6166151d0e18244534a8f71fc8a732c1186224",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "e61185f96dfce9c89511f622afbfbdb044e0da364e8680845506c7cb60c9bd95",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
         "value": 15760000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c816087add66d48c75bb45476ac0ab9a91f3d040fa31f590c9f2e04a161c7244",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "4c5ef7e37a2226e46282c376b411d0c726a661f0aae9e2b65bced8642f4db449",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
         "value": 15640000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "53467d876a9c914869b1866158acbfb478ad59582963995b20255da8527b4f27",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "c3dfa355e3747e8c56fcc846d6a7ca9afab5b2e132295047548824e95a298721",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
         "value": 15520000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c2851cf04f286460e1fb662b7ce8242d271adb22e5a4cf2c34098a09efe509a9",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "ca1195e973043d20bee7c1ac0b9a1fb8112162fd0c2b36808c7456962de1d530",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
         "value": 15400000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0bbddc2a0803732ca2c4bf226b57dae411fd8ad7baf12c6a10fbcfaa4ee4ce70",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "a44b4a9b5dd8e8d9e9982721a9b0f92b53716a13603dd02aa2969cf6c3a87dfc",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
         "value": 15280000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "027b40d3af62c03ec7e078a65e6a2abdfa95f5cbc2f25924e87d85e65a9ad7df",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "9a3c9a189edce331ffb9be1dab2af742cd1a68e9ca17155f59d86a69b8412606",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
         "value": 15160000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "d3642b0270d1e5f002d02031e10f7cf4cb2381811a98981a5d1cd0ee6680bade",
-        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+        "raw_record_hash": "8ee88890169b4ca847803a6d4649cf100c4c41ee349bf4bec08a01e85c782edf",
+        "ingested_at": "2026-03-06T07:09:08.788323+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
-        "value": 5.0,
+        "value": 6.0,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "376fee899349d0b69e513033953c8d5b9aa6269b5cfee7d7f2124944778ceb79",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "64bfe526595946ca68b31563aed5abfe469f98dbaa4ac33c634333cd445ec344",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
-        "value": 5.35,
+        "value": 6.35,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "77601227d468b755bb7acd85e20b843fb4987392ca7fef2a8f3891ee22812079",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "46f69b8a32ff1bd11cf4694a10c84d54ae7e160709c5285bd29b325723b45784",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
-        "value": 5.7,
+        "value": 6.7,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "94d0404151f05e00169a655299abf88f4d2dd8927d9d198bb2fb94584404b2c6",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "4d3ad16bd01b55489be70c2c2940e20df552b44188a117d666bd8e4c4897ab9e",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
-        "value": 6.05,
+        "value": 7.05,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0034adfba38ef216b42eda0e0950d9a2532509932eb04ab70aca86def8517321",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "551e384aa19b0c949123a666aa56fd74d5265a91c2cdc2881d0d773ac3f43770",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
-        "value": 6.4,
+        "value": 7.4,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c28ba36a7c48823b5975c4420aee0f8ffacd3cc1a316f4ac37cbbde947e2a5ff",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "7b9319c8965e65c58b27338c1d0442471242282f72a622cd1fdc146eb154c62e",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
-        "value": 6.75,
+        "value": 7.75,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "ebf7776300fb7dea8a77f1796bd9eee1c5f6818afabcd987d28f0bf6fd9f0cdd",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "1c3b877b8ab2b6fdbdd0bbc009bed041ef3b0fe6ffd49a3d475952fb016a9be2",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
-        "value": 7.1,
+        "value": 8.1,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c986f2f95b0e6577e9776af7a55ab6c15fee42e36f474615160f1de27886c50d",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "1fd8bb8969c8fc6026debf72a4ddbeb642f7025fb7503873a4c39a73caf7c3a2",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
-        "value": 7.45,
+        "value": 8.45,
         "unit": "USD/share",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "6fe83df8e8df2bb6c077529c79d9a1d080c5b3dbb45a0cf5ec88721fcce955aa",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "6810db4fcc55422ac5d0165605554d76be8c03988dd2581afd8c1b1d4321d006",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
         "value": 20000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "1c975d59bfcf2fa906b788c88242e248e5c3c0f044a27396482ef88c2a7cfb40",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "952cc836e117609a147a73411423825d18df0f14ff20ff071edfd5689d1550bf",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
         "value": 21500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "f7e46856e9992ab20690166c893af8c77d0548d5583cc11132dd544f58c92965",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "a95eb1279a1d44eb88427c3cbf44d3edb04b039b4a5c0961c5fb526f08a7a0c9",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
         "value": 23000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "27d69575bd7aeafa98432d61ee40d6ce021b5640e3df92ce3b43d6b59a0d872a",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "5386ab8e3e9c8efe756848d72d6caf8d3d9d12acf01d0381d01feb333687012a",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
         "value": 24500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "9afc41d234cdf7d9c1e8f282d70e3cd3af329150cb4c52251d4fbb4155fabae8",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "92ee1ce46802b1fba37cb3179b718cc4c72d4c220f7f9688c32d6dc6ca110520",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
         "value": 26000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "3def351554c98f76abb46b4008a55d5cadfb7179f2e49ded4c6b5c62a4bf7475",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "e8aaf194c3a05943e3899d2319a787f879cb044d55359f35a757cd3ed2c7a6ca",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
         "value": 27500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "94b328db9836d3f70633a92856a7516a7fd834ebf65bb73ba995acbb9283f12b",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "b5214e420cd64e62bb7fc30db2e73da7da5107d9e3e483dfd510a2794a22d31e",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
         "value": 29000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c9720786f931ac17a995783116acbf58f71156d377d15764800be7f466d28de1",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "184fd99f8090a87dbeae5cd957dff6a8a9873135dc0cdefb92f8b6df2fefcf4b",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "net_income_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
         "value": 30500000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:NetIncomeLoss",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "817fe516fd1578f6de370dedd7357a096bd08ecc1bccc0c37a7a6a5c5a4a9ba0",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "3d1aa1f3c97e6235dc5b490fe542eff967e29d5d0c225a64f89cfb2fe9c532ca",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
         "value": 100000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "2961328f06f3c057598191f06574d8f18bb33cc817ee61891f4df38707277ff6",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "26cebad4d80db4ac06ba8e275958bb1bf82d45eca366c3786774e9d86bc6d897",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
         "value": 104000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "888d4550b6aa3c8123db40a2234e08d11bae1f32561b4e36b221f05a32d7ec8e",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "4310fc177d522cc19af22c53e691b95f6106c36c2b7ef9b13146ca7cbaabf3c6",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
         "value": 108000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0087f24aefe33065e564bcfcb874ae9e025b077a8cd8b58ec8c4028b94fcbdfe",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "4daeae22ec5d77686779f717b4057dbe966be0cb1976c564a248f71bd27d5c39",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
         "value": 112000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "f299322f816aeeba671ae9c862f4e23c1281d8abee7a90f1ec176acae342e5e7",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "522dcf942b2b02cda7b8e925337cc34d2fa45ab070e36d53412ee3c51912f537",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
         "value": 116000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "ae3a5cb5d050454e913d8a9ac1cfdb56c0b547a237783e37c4167fda7c07ae36",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "292b997b8ec96a53956b8914f9f032c6c9c86ddb2e20834b5f59e02556ec7502",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
         "value": 120000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "d1e6a04b590938ddf580572d900ab0a769075f24ad09f9ef4c766ca5987483f4",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "35b2900cdc68d7b844171fff7ceeedb789c08bb410f13851b85116c208bf4cb4",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
         "value": 124000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "bc26e07f83283843f28465526ad8de147e4e97916789591113b045c69994e673",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "94b09fadf1dd1365534cb05f260d11ced7452e021dd9b71869b962daebb8cd35",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "revenue_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
         "value": 128000000000.0,
         "unit": "USD",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "21336d5427de094fa6703fecba0c94704b9322977c1003f75d1c5f1b77566148",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "6a0f4ca3291812de79486dffad891d9a48f70aa8a3105fa0f6a5d99f9ba68af7",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2018,
-        "period_end_date": "2018-09-30",
+        "period_end_date": "2018-06-30",
         "duration_days": 365,
         "value": 16000000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "433572f37a6e3b7a4a72eae011a0aba6bebd6d6200f59555ef02390446d327ed",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "441371d7a560ce243aecdab9650d010a236dd66fb3684c856a8b4493a953db58",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2019,
-        "period_end_date": "2019-09-30",
+        "period_end_date": "2019-06-30",
         "duration_days": 365,
         "value": 15880000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0ba99097466d62bb553cc4980c6166151d0e18244534a8f71fc8a732c1186224",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "e61185f96dfce9c89511f622afbfbdb044e0da364e8680845506c7cb60c9bd95",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2020,
-        "period_end_date": "2020-09-30",
+        "period_end_date": "2020-06-30",
         "duration_days": 365,
         "value": 15760000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c816087add66d48c75bb45476ac0ab9a91f3d040fa31f590c9f2e04a161c7244",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "4c5ef7e37a2226e46282c376b411d0c726a661f0aae9e2b65bced8642f4db449",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2021,
-        "period_end_date": "2021-09-30",
+        "period_end_date": "2021-06-30",
         "duration_days": 365,
         "value": 15640000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "53467d876a9c914869b1866158acbfb478ad59582963995b20255da8527b4f27",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "c3dfa355e3747e8c56fcc846d6a7ca9afab5b2e132295047548824e95a298721",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2022,
-        "period_end_date": "2022-09-30",
+        "period_end_date": "2022-06-30",
         "duration_days": 365,
         "value": 15520000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "c2851cf04f286460e1fb662b7ce8242d271adb22e5a4cf2c34098a09efe509a9",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "ca1195e973043d20bee7c1ac0b9a1fb8112162fd0c2b36808c7456962de1d530",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2023,
-        "period_end_date": "2023-09-30",
+        "period_end_date": "2023-06-30",
         "duration_days": 365,
         "value": 15400000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "0bbddc2a0803732ca2c4bf226b57dae411fd8ad7baf12c6a10fbcfaa4ee4ce70",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "a44b4a9b5dd8e8d9e9982721a9b0f92b53716a13603dd02aa2969cf6c3a87dfc",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2024,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-06-30",
         "duration_days": 365,
         "value": 15280000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "027b40d3af62c03ec7e078a65e6a2abdfa95f5cbc2f25924e87d85e65a9ad7df",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "9a3c9a189edce331ffb9be1dab2af742cd1a68e9ca17155f59d86a69b8412606",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "shares_diluted_actual",
         "fiscal_year": 2025,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-06-30",
         "duration_days": 365,
         "value": 15160000000.0,
         "unit": "shares",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "d3642b0270d1e5f002d02031e10f7cf4cb2381811a98981a5d1cd0ee6680bade",
-        "ingested_at": "2026-03-06T19:43:36.074470+00:00"
+        "raw_record_hash": "8ee88890169b4ca847803a6d4649cf100c4c41ee349bf4bec08a01e85c782edf",
+        "ingested_at": "2026-03-06T19:35:23.398423+00:00"
       }
     ],
     "quarterly": [
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2024,
         "fiscal_quarter": 1,
-        "period_end_date": "2024-03-30",
+        "period_end_date": "2024-09-30",
         "duration_days": 90,
-        "value": 1.8,
+        "value": 2.05,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2024-04-15",
-        "accession_no": "0000320193-2024-Q01",
+        "filed_at": "2024-10-15",
+        "accession_no": "0000789019-2024-Q01",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "5abfd03f884f3d3cc53fe88ee97ba63313e5f013e54f654a0a28914b50106646",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+        "raw_record_hash": "00af947200b8bf42d5bfb3505205feef07b27eeb90aa8330b773e950bf2ba706",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2024,
         "fiscal_quarter": 2,
-        "period_end_date": "2024-06-30",
+        "period_end_date": "2024-12-30",
         "duration_days": 90,
-        "value": 1.83,
+        "value": 2.08,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2024-07-15",
-        "accession_no": "0000320193-2024-Q02",
+        "filed_at": "2024-12-15",
+        "accession_no": "0000789019-2024-Q02",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "720111286ebf49caed54ab3fd55ae952171b0fec1f9f588dca9beb35a01a59e0",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+        "raw_record_hash": "2d8251138c9400bfb4502315c726c8b542c759b20de19ab1f05206aac9cca483",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2024,
         "fiscal_quarter": 3,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-03-30",
+        "duration_days": 90,
+        "value": 2.11,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2024-04-15",
+        "accession_no": "0000789019-2024-Q03",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "f6e2a168e7374d3e798b3b5a9e2e21c9e994458d5c8082df158f92d00983c170",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
+      },
+      {
+        "company_key": "789019",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "fiscal_quarter": 1,
+        "period_end_date": "2025-09-30",
+        "duration_days": 90,
+        "value": 2.14,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2025-10-15",
+        "accession_no": "0000789019-2025-Q01",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "87bed800ce8fb854b459c1a39f2fd6d0a09966189645c35f03503e4882b09730",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
+      },
+      {
+        "company_key": "789019",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "fiscal_quarter": 2,
+        "period_end_date": "2025-12-30",
+        "duration_days": 90,
+        "value": 2.17,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2025-12-15",
+        "accession_no": "0000789019-2025-Q02",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "c137962152548fba2cd3f7cad29e1e64af806cc8a0fba9f4dbcdccd8d35e6e24",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
+      },
+      {
+        "company_key": "789019",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "fiscal_quarter": 3,
+        "period_end_date": "2025-03-30",
+        "duration_days": 90,
+        "value": 2.2,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2025-04-15",
+        "accession_no": "0000789019-2025-Q03",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "c58bd3f4ea705e18198cde21999591a8ac9a14c17c342358eddccb4c19130f01",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
+      },
+      {
+        "company_key": "789019",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "fiscal_quarter": 4,
+        "period_end_date": "2024-03-30",
         "duration_days": 90,
         "value": 1.86,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2024-10-15",
-        "accession_no": "0000320193-2024-Q03",
+        "filed_at": "2024-04-15",
+        "accession_no": "0000789019-2024-Q03",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
-        "confidence": "reported",
+        "confidence": "derived",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "5722dcd427bdb3a67f1cd4ba2d3f77a797fd53fe5ef1e20aae12e31943cf55d2",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+        "raw_record_hash": "8819794c4c9b19aa13cbc4be3bf8cee09b194ab9f4c1fad90d1981b0c16e30bc",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
       },
       {
-        "company_key": "320193",
+        "company_key": "789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2025,
-        "fiscal_quarter": 1,
+        "fiscal_quarter": 4,
         "period_end_date": "2025-03-30",
         "duration_days": 90,
-        "value": 1.89,
+        "value": 1.9399999999999984,
         "unit": "USD/share",
         "form_type": "10-Q",
         "filed_at": "2025-04-15",
-        "accession_no": "0000320193-2025-Q01",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "confidence": "reported",
-        "amended": false,
-        "source_name": "sec",
-        "raw_record_hash": "b181ca6f69f596d68b4359d714dd349f3bcf6e0b801bf8b99aebe574755793a8",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
-      },
-      {
-        "company_key": "320193",
-        "metric_code": "eps_diluted_actual",
-        "fiscal_year": 2025,
-        "fiscal_quarter": 2,
-        "period_end_date": "2025-06-30",
-        "duration_days": 90,
-        "value": 1.92,
-        "unit": "USD/share",
-        "form_type": "10-Q",
-        "filed_at": "2025-07-15",
-        "accession_no": "0000320193-2025-Q02",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "confidence": "reported",
-        "amended": false,
-        "source_name": "sec",
-        "raw_record_hash": "89eb6558f6131661f52713886c4e605792b204929588c9f85028e99fb76235b1",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
-      },
-      {
-        "company_key": "320193",
-        "metric_code": "eps_diluted_actual",
-        "fiscal_year": 2025,
-        "fiscal_quarter": 3,
-        "period_end_date": "2025-09-30",
-        "duration_days": 90,
-        "value": 1.95,
-        "unit": "USD/share",
-        "form_type": "10-Q",
-        "filed_at": "2025-10-15",
-        "accession_no": "0000320193-2025-Q03",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "confidence": "reported",
-        "amended": false,
-        "source_name": "sec",
-        "raw_record_hash": "1aa0148c976c6814608d2c957f084ecb6b9d1f36b9dabcf1c9c9276ecc81bfcc",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
-      },
-      {
-        "company_key": "320193",
-        "metric_code": "eps_diluted_actual",
-        "fiscal_year": 2024,
-        "fiscal_quarter": 4,
-        "period_end_date": "2024-09-30",
-        "duration_days": 90,
-        "value": 1.6099999999999994,
-        "unit": "USD/share",
-        "form_type": "10-Q",
-        "filed_at": "2024-10-15",
-        "accession_no": "0000320193-2024-Q03",
+        "accession_no": "0000789019-2025-Q03",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "derived",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "9418b72bc1cf071fefc8f92bbae2eaa699d7ff78917bc96890b870f437a9181e",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+        "raw_record_hash": "c412be70d0f29a490b3eb681dfc13b818eb7dc98bc7090971d7a88548fd16ff0",
+        "ingested_at": "2026-03-06T07:09:08.810265+00:00"
       },
       {
-        "company_key": "320193",
-        "metric_code": "eps_diluted_actual",
-        "fiscal_year": 2025,
-        "fiscal_quarter": 4,
-        "period_end_date": "2025-09-30",
-        "duration_days": 90,
-        "value": 1.6900000000000004,
-        "unit": "USD/share",
-        "form_type": "10-Q",
-        "filed_at": "2025-10-15",
-        "accession_no": "0000320193-2025-Q03",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "confidence": "derived",
-        "amended": false,
-        "source_name": "sec",
-        "raw_record_hash": "77a190d801ddc4f2219bbf99e9ac0410c915d93cc2d1ac821a8423a90831a21c",
-        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
-      },
-      {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2024,
         "fiscal_quarter": 1,
+        "period_end_date": "2024-09-30",
+        "duration_days": 90,
+        "value": 2.05,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2024-10-15",
+        "accession_no": "0000789019-2024-Q01",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "00af947200b8bf42d5bfb3505205feef07b27eeb90aa8330b773e950bf2ba706",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
+      },
+      {
+        "company_key": "0000789019",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "fiscal_quarter": 2,
+        "period_end_date": "2024-12-30",
+        "duration_days": 90,
+        "value": 2.08,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2024-12-15",
+        "accession_no": "0000789019-2024-Q02",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "2d8251138c9400bfb4502315c726c8b542c759b20de19ab1f05206aac9cca483",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
+      },
+      {
+        "company_key": "0000789019",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "fiscal_quarter": 3,
         "period_end_date": "2024-03-30",
         "duration_days": 90,
-        "value": 1.8,
+        "value": 2.11,
         "unit": "USD/share",
         "form_type": "10-Q",
         "filed_at": "2024-04-15",
-        "accession_no": "0000320193-2024-Q01",
+        "accession_no": "0000789019-2024-Q03",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "5abfd03f884f3d3cc53fe88ee97ba63313e5f013e54f654a0a28914b50106646",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
+        "raw_record_hash": "f6e2a168e7374d3e798b3b5a9e2e21c9e994458d5c8082df158f92d00983c170",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
       },
       {
-        "company_key": "0000320193",
-        "metric_code": "eps_diluted_actual",
-        "fiscal_year": 2024,
-        "fiscal_quarter": 2,
-        "period_end_date": "2024-06-30",
-        "duration_days": 90,
-        "value": 1.83,
-        "unit": "USD/share",
-        "form_type": "10-Q",
-        "filed_at": "2024-07-15",
-        "accession_no": "0000320193-2024-Q02",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "confidence": "reported",
-        "amended": false,
-        "source_name": "sec",
-        "raw_record_hash": "720111286ebf49caed54ab3fd55ae952171b0fec1f9f588dca9beb35a01a59e0",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
-      },
-      {
-        "company_key": "0000320193",
-        "metric_code": "eps_diluted_actual",
-        "fiscal_year": 2024,
-        "fiscal_quarter": 3,
-        "period_end_date": "2024-09-30",
-        "duration_days": 90,
-        "value": 1.86,
-        "unit": "USD/share",
-        "form_type": "10-Q",
-        "filed_at": "2024-10-15",
-        "accession_no": "0000320193-2024-Q03",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "confidence": "reported",
-        "amended": false,
-        "source_name": "sec",
-        "raw_record_hash": "5722dcd427bdb3a67f1cd4ba2d3f77a797fd53fe5ef1e20aae12e31943cf55d2",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
-      },
-      {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2025,
         "fiscal_quarter": 1,
-        "period_end_date": "2025-03-30",
+        "period_end_date": "2025-09-30",
         "duration_days": 90,
-        "value": 1.89,
+        "value": 2.14,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2025-04-15",
-        "accession_no": "0000320193-2025-Q01",
+        "filed_at": "2025-10-15",
+        "accession_no": "0000789019-2025-Q01",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "b181ca6f69f596d68b4359d714dd349f3bcf6e0b801bf8b99aebe574755793a8",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
+        "raw_record_hash": "87bed800ce8fb854b459c1a39f2fd6d0a09966189645c35f03503e4882b09730",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2025,
         "fiscal_quarter": 2,
-        "period_end_date": "2025-06-30",
+        "period_end_date": "2025-12-30",
         "duration_days": 90,
-        "value": 1.92,
+        "value": 2.17,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2025-07-15",
-        "accession_no": "0000320193-2025-Q02",
+        "filed_at": "2025-12-15",
+        "accession_no": "0000789019-2025-Q02",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "89eb6558f6131661f52713886c4e605792b204929588c9f85028e99fb76235b1",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
+        "raw_record_hash": "c137962152548fba2cd3f7cad29e1e64af806cc8a0fba9f4dbcdccd8d35e6e24",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2025,
         "fiscal_quarter": 3,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-03-30",
         "duration_days": 90,
-        "value": 1.95,
+        "value": 2.2,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2025-10-15",
-        "accession_no": "0000320193-2025-Q03",
+        "filed_at": "2025-04-15",
+        "accession_no": "0000789019-2025-Q03",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "reported",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "1aa0148c976c6814608d2c957f084ecb6b9d1f36b9dabcf1c9c9276ecc81bfcc",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
+        "raw_record_hash": "c58bd3f4ea705e18198cde21999591a8ac9a14c17c342358eddccb4c19130f01",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2024,
         "fiscal_quarter": 4,
-        "period_end_date": "2024-09-30",
+        "period_end_date": "2024-03-30",
         "duration_days": 90,
-        "value": 1.6099999999999994,
+        "value": 1.8599999999999994,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2024-10-15",
-        "accession_no": "0000320193-2024-Q03",
+        "filed_at": "2024-04-15",
+        "accession_no": "0000789019-2024-Q03",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "derived",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "9418b72bc1cf071fefc8f92bbae2eaa699d7ff78917bc96890b870f437a9181e",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
+        "raw_record_hash": "8819794c4c9b19aa13cbc4be3bf8cee09b194ab9f4c1fad90d1981b0c16e30bc",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
       },
       {
-        "company_key": "0000320193",
+        "company_key": "0000789019",
         "metric_code": "eps_diluted_actual",
         "fiscal_year": 2025,
         "fiscal_quarter": 4,
-        "period_end_date": "2025-09-30",
+        "period_end_date": "2025-03-30",
         "duration_days": 90,
-        "value": 1.6900000000000004,
+        "value": 1.9399999999999986,
         "unit": "USD/share",
         "form_type": "10-Q",
-        "filed_at": "2025-10-15",
-        "accession_no": "0000320193-2025-Q03",
+        "filed_at": "2025-04-15",
+        "accession_no": "0000789019-2025-Q03",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "confidence": "derived",
         "amended": false,
         "source_name": "sec",
-        "raw_record_hash": "77a190d801ddc4f2219bbf99e9ac0410c915d93cc2d1ac821a8423a90831a21c",
-        "ingested_at": "2026-03-06T19:43:36.108094+00:00"
+        "raw_record_hash": "c412be70d0f29a490b3eb681dfc13b818eb7dc98bc7090971d7a88548fd16ff0",
+        "ingested_at": "2026-03-06T19:35:23.423945+00:00"
       }
     ],
     "audit": [
       {
         "metric": "eps_diluted_actual",
-        "period": "2018-09-30",
-        "value": 5.0,
+        "period": "2018-06-30",
+        "value": 6.0,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2018-09-30",
+        "period": "2018-06-30",
         "value": 20000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4332,13 +4332,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2018-09-30",
+        "period": "2018-06-30",
         "value": 100000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4346,13 +4346,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2018-09-30",
+        "period": "2018-06-30",
         "value": 16000000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4360,27 +4360,27 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2019-01-30",
-        "accession_no": "0000320193-2018-000010",
+        "accession_no": "0000789019-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
-        "period": "2019-09-30",
-        "value": 5.35,
+        "period": "2019-06-30",
+        "value": 6.35,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2019-09-30",
+        "period": "2019-06-30",
         "value": 21500000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4388,13 +4388,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2019-09-30",
+        "period": "2019-06-30",
         "value": 104000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4402,13 +4402,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2019-09-30",
+        "period": "2019-06-30",
         "value": 15880000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4416,27 +4416,27 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2020-01-30",
-        "accession_no": "0000320193-2019-000010",
+        "accession_no": "0000789019-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
-        "period": "2020-09-30",
-        "value": 5.7,
+        "period": "2020-06-30",
+        "value": 6.7,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2020-09-30",
+        "period": "2020-06-30",
         "value": 23000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4444,13 +4444,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2020-09-30",
+        "period": "2020-06-30",
         "value": 108000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4458,13 +4458,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2020-09-30",
+        "period": "2020-06-30",
         "value": 15760000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4472,27 +4472,27 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2021-01-30",
-        "accession_no": "0000320193-2020-000010",
+        "accession_no": "0000789019-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
-        "period": "2021-09-30",
-        "value": 6.05,
+        "period": "2021-06-30",
+        "value": 7.05,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2021-09-30",
+        "period": "2021-06-30",
         "value": 24500000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4500,13 +4500,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2021-09-30",
+        "period": "2021-06-30",
         "value": 112000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4514,13 +4514,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2021-09-30",
+        "period": "2021-06-30",
         "value": 15640000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4528,27 +4528,27 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2022-01-30",
-        "accession_no": "0000320193-2021-000010",
+        "accession_no": "0000789019-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
-        "period": "2022-09-30",
-        "value": 6.4,
+        "period": "2022-06-30",
+        "value": 7.4,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2022-09-30",
+        "period": "2022-06-30",
         "value": 26000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4556,13 +4556,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2022-09-30",
+        "period": "2022-06-30",
         "value": 116000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4570,13 +4570,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2022-09-30",
+        "period": "2022-06-30",
         "value": 15520000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4584,27 +4584,27 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2023-01-30",
-        "accession_no": "0000320193-2022-000010",
+        "accession_no": "0000789019-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
-        "period": "2023-09-30",
-        "value": 6.75,
+        "period": "2023-06-30",
+        "value": 7.75,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2023-09-30",
+        "period": "2023-06-30",
         "value": 27500000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4612,13 +4612,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2023-09-30",
+        "period": "2023-06-30",
         "value": 120000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4626,13 +4626,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2023-09-30",
+        "period": "2023-06-30",
         "value": 15400000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4640,69 +4640,41 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2024-01-30",
-        "accession_no": "0000320193-2023-000010",
+        "accession_no": "0000789019-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
         "period": "2024-03-30",
-        "value": 1.8,
+        "value": 1.8599999999999994,
         "unit": "USD/share",
-        "confidence": "reported",
+        "confidence": "derived",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-Q",
         "filed_at": "2024-04-15",
-        "accession_no": "0000320193-2024-Q01",
+        "accession_no": "0000789019-2024-Q03",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
         "period": "2024-06-30",
-        "value": 1.83,
-        "unit": "USD/share",
-        "confidence": "reported",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "form_type": "10-Q",
-        "filed_at": "2024-07-15",
-        "accession_no": "0000320193-2024-Q02",
-        "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
-      },
-      {
-        "metric": "eps_diluted_actual",
-        "period": "2024-09-30",
-        "value": 7.1,
+        "value": 8.1,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
-      },
-      {
-        "metric": "eps_diluted_actual",
-        "period": "2024-09-30",
-        "value": 1.6099999999999994,
-        "unit": "USD/share",
-        "confidence": "derived",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "form_type": "10-Q",
-        "filed_at": "2024-10-15",
-        "accession_no": "0000320193-2024-Q03",
-        "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2024-09-30",
+        "period": "2024-06-30",
         "value": 29000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4710,13 +4682,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2024-09-30",
+        "period": "2024-06-30",
         "value": 124000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4724,13 +4696,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2024-09-30",
+        "period": "2024-06-30",
         "value": 15280000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4738,69 +4710,69 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2025-01-30",
-        "accession_no": "0000320193-2024-000010",
+        "accession_no": "0000789019-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
+      },
+      {
+        "metric": "eps_diluted_actual",
+        "period": "2024-09-30",
+        "value": 2.05,
+        "unit": "USD/share",
+        "confidence": "reported",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "form_type": "10-Q",
+        "filed_at": "2024-10-15",
+        "accession_no": "0000789019-2024-Q01",
+        "source_name": "sec",
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
+      },
+      {
+        "metric": "eps_diluted_actual",
+        "period": "2024-12-30",
+        "value": 2.08,
+        "unit": "USD/share",
+        "confidence": "reported",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "form_type": "10-Q",
+        "filed_at": "2024-12-15",
+        "accession_no": "0000789019-2024-Q02",
+        "source_name": "sec",
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
         "period": "2025-03-30",
-        "value": 1.89,
+        "value": 1.9399999999999986,
         "unit": "USD/share",
-        "confidence": "reported",
+        "confidence": "derived",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-Q",
         "filed_at": "2025-04-15",
-        "accession_no": "0000320193-2025-Q01",
+        "accession_no": "0000789019-2025-Q03",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "eps_diluted_actual",
         "period": "2025-06-30",
-        "value": 1.92,
-        "unit": "USD/share",
-        "confidence": "reported",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "form_type": "10-Q",
-        "filed_at": "2025-07-15",
-        "accession_no": "0000320193-2025-Q02",
-        "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
-      },
-      {
-        "metric": "eps_diluted_actual",
-        "period": "2025-09-30",
-        "value": 7.45,
+        "value": 8.45,
         "unit": "USD/share",
         "confidence": "reported",
         "taxonomy": "us-gaap",
         "concept": "us-gaap:EarningsPerShareDiluted",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
-      },
-      {
-        "metric": "eps_diluted_actual",
-        "period": "2025-09-30",
-        "value": 1.6900000000000004,
-        "unit": "USD/share",
-        "confidence": "derived",
-        "taxonomy": "us-gaap",
-        "concept": "us-gaap:EarningsPerShareDiluted",
-        "form_type": "10-Q",
-        "filed_at": "2025-10-15",
-        "accession_no": "0000320193-2025-Q03",
-        "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "net_income_actual",
-        "period": "2025-09-30",
+        "period": "2025-06-30",
         "value": 30500000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4808,13 +4780,13 @@
         "concept": "us-gaap:NetIncomeLoss",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "revenue_actual",
-        "period": "2025-09-30",
+        "period": "2025-06-30",
         "value": 128000000000.0,
         "unit": "USD",
         "confidence": "reported",
@@ -4822,13 +4794,13 @@
         "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       },
       {
         "metric": "shares_diluted_actual",
-        "period": "2025-09-30",
+        "period": "2025-06-30",
         "value": 15160000000.0,
         "unit": "shares",
         "confidence": "reported",
@@ -4836,9 +4808,37 @@
         "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
         "form_type": "10-K",
         "filed_at": "2026-01-30",
-        "accession_no": "0000320193-2025-000010",
+        "accession_no": "0000789019-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T19:43:36.646526+00:00"
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
+      },
+      {
+        "metric": "eps_diluted_actual",
+        "period": "2025-09-30",
+        "value": 2.14,
+        "unit": "USD/share",
+        "confidence": "reported",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "form_type": "10-Q",
+        "filed_at": "2025-10-15",
+        "accession_no": "0000789019-2025-Q01",
+        "source_name": "sec",
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
+      },
+      {
+        "metric": "eps_diluted_actual",
+        "period": "2025-12-30",
+        "value": 2.17,
+        "unit": "USD/share",
+        "confidence": "reported",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "form_type": "10-Q",
+        "filed_at": "2025-12-15",
+        "accession_no": "0000789019-2025-Q02",
+        "source_name": "sec",
+        "built_at": "2026-03-06T19:35:24.015197+00:00"
       }
     ],
     "quality_issues": []
