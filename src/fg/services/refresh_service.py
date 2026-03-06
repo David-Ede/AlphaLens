@@ -121,12 +121,18 @@ class RefreshService:
             },
             "built_at": datetime.now(tz=timezone.utc).isoformat(),
         }
+        # Persist nested values as JSON strings for compatibility with legacy CSV rows.
+        status_row = {
+            **result,
+            "warnings": json.dumps(result["warnings"]),
+            "rows": json.dumps(result["rows"], separators=(",", ":")),
+        }
         upsert_table(
             settings=self.settings,
             layer="gold",
             table_name="mart_refresh_status",
             key=company.company_key,
-            df=pd.DataFrame([result]),
+            df=pd.DataFrame([status_row]),
             dedupe_keys=["company_key"],
         )
         return result
