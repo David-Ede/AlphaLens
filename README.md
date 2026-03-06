@@ -36,6 +36,22 @@ cp .env.example .env
 make demo-seed
 ```
 
+## No-Terminal Launch In VS Code
+
+Use this when you do not want to type commands in a terminal:
+
+1. Open `run_dashboard.py` in VS Code.
+2. Click the **Run Python File** button.
+3. The launcher will:
+   - verify Python 3.12+
+   - install app dependencies once if missing
+   - create `.env` from `.env.example` if needed
+   - auto-select an open localhost port (starting from `8050`)
+   - open your browser to the exact selected URL
+4. In the dashboard, enter `MSFT` on Overview and click **Refresh**.
+
+The launcher forces `debug=False` to avoid duplicate browser tabs from the dev reloader.
+
 ## Commands
 
 - `make run`

@@ -5,7 +5,7 @@
     "issuer_name": "Apple Inc.",
     "lookback_years": 20,
     "pe_method": "static_15",
-    "built_at": "2026-03-06T07:33:27.609481+00:00"
+    "built_at": "2026-03-06T18:32:30.183997+00:00"
   },
   "kpis": {
     "company_key": "0000320193",
@@ -21,7 +21,7 @@
     "last_filing_date": "2026-01-30",
     "last_estimate_snapshot_date": "2026-03-01",
     "data_quality_score": 100,
-    "built_at": "2026-03-06T07:33:26.416696+00:00"
+    "built_at": "2026-03-06T16:00:41.116941+00:00"
   },
   "series": {
     "price": [
@@ -35,8 +35,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 140.0, 'trade_date': '2018-01-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-01-31",
+          "value": 140.0
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -48,8 +59,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 140.9, 'trade_date': '2018-02-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-02-28",
+          "value": 140.9
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -61,8 +83,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 141.8, 'trade_date': '2018-03-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-03-30",
+          "value": 141.8
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -74,8 +107,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 142.7, 'trade_date': '2018-04-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-04-30",
+          "value": 142.7
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -87,8 +131,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 143.6, 'trade_date': '2018-05-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-05-31",
+          "value": 143.6
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -100,8 +155,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 144.5, 'trade_date': '2018-06-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-06-29",
+          "value": 144.5
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -113,8 +179,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 145.4, 'trade_date': '2018-07-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-07-31",
+          "value": 145.4
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -126,8 +203,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 146.3, 'trade_date': '2018-08-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-08-31",
+          "value": 146.3
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -139,8 +227,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 147.2, 'trade_date': '2018-09-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-09-28",
+          "value": 147.2
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -152,8 +251,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 148.1, 'trade_date': '2018-10-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-10-31",
+          "value": 148.1
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -165,8 +275,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 149.0, 'trade_date': '2018-11-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-11-30",
+          "value": 149.0
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -178,8 +299,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 149.9, 'trade_date': '2018-12-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2018-12-31",
+          "value": 149.9
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -191,8 +323,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 150.8, 'trade_date': '2019-01-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-01-31",
+          "value": 150.8
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -204,8 +347,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 151.7, 'trade_date': '2019-02-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-02-28",
+          "value": 151.7
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -217,8 +371,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 152.6, 'trade_date': '2019-03-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-03-29",
+          "value": 152.6
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -230,8 +395,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 153.5, 'trade_date': '2019-04-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-04-30",
+          "value": 153.5
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -243,8 +419,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 154.4, 'trade_date': '2019-05-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-05-31",
+          "value": 154.4
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -256,8 +443,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 155.3, 'trade_date': '2019-06-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-06-28",
+          "value": 155.3
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -269,8 +467,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 156.2, 'trade_date': '2019-07-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-07-31",
+          "value": 156.2
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -282,8 +491,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 157.1, 'trade_date': '2019-08-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-08-30",
+          "value": 157.1
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -295,8 +515,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 158.0, 'trade_date': '2019-09-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-09-30",
+          "value": 158.0
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -308,8 +539,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 158.9, 'trade_date': '2019-10-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-10-31",
+          "value": 158.9
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -321,8 +563,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 159.8, 'trade_date': '2019-11-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-11-29",
+          "value": 159.8
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -334,8 +587,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 160.7, 'trade_date': '2019-12-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2019-12-31",
+          "value": 160.7
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -347,8 +611,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 161.6, 'trade_date': '2020-01-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-01-31",
+          "value": 161.6
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -360,8 +635,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 162.5, 'trade_date': '2020-02-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-02-28",
+          "value": 162.5
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -373,8 +659,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 163.4, 'trade_date': '2020-03-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.300981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-03-31",
+          "value": 163.4
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -386,8 +683,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 164.3, 'trade_date': '2020-04-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-04-30",
+          "value": 164.3
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -399,8 +707,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 165.2, 'trade_date': '2020-05-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-05-29",
+          "value": 165.2
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -412,8 +731,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 166.1, 'trade_date': '2020-06-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-06-30",
+          "value": 166.1
+        },
+        "built_at": "2026-03-06T16:00:40.637711+00:00"
       },
       {
         "company_key": "0000320193",
@@ -425,8 +755,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 167.0, 'trade_date': '2020-07-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-07-31",
+          "value": 167.0
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -438,8 +779,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 167.9, 'trade_date': '2020-08-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-08-31",
+          "value": 167.9
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -451,8 +803,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 168.8, 'trade_date': '2020-09-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-09-30",
+          "value": 168.8
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -464,8 +827,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 169.7, 'trade_date': '2020-10-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-10-30",
+          "value": 169.7
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -477,8 +851,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 170.6, 'trade_date': '2020-11-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-11-30",
+          "value": 170.6
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -490,8 +875,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 171.5, 'trade_date': '2020-12-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2020-12-31",
+          "value": 171.5
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -503,8 +899,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 172.4, 'trade_date': '2021-01-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-01-29",
+          "value": 172.4
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -516,8 +923,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 173.3, 'trade_date': '2021-02-26', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-02-26",
+          "value": 173.3
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -529,8 +947,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 174.2, 'trade_date': '2021-03-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-03-31",
+          "value": 174.2
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -542,8 +971,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 175.1, 'trade_date': '2021-04-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-04-30",
+          "value": 175.1
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -555,8 +995,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 176.0, 'trade_date': '2021-05-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-05-31",
+          "value": 176.0
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -568,8 +1019,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 176.9, 'trade_date': '2021-06-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-06-30",
+          "value": 176.9
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -581,8 +1043,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 177.8, 'trade_date': '2021-07-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-07-30",
+          "value": 177.8
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -594,8 +1067,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 178.7, 'trade_date': '2021-08-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-08-31",
+          "value": 178.7
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -607,8 +1091,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 179.6, 'trade_date': '2021-09-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-09-30",
+          "value": 179.6
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -620,8 +1115,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 180.5, 'trade_date': '2021-10-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-10-29",
+          "value": 180.5
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -633,8 +1139,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 181.4, 'trade_date': '2021-11-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-11-30",
+          "value": 181.4
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -646,8 +1163,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 182.3, 'trade_date': '2021-12-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2021-12-31",
+          "value": 182.3
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -659,8 +1187,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 183.2, 'trade_date': '2022-01-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-01-31",
+          "value": 183.2
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -672,8 +1211,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 184.1, 'trade_date': '2022-02-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-02-28",
+          "value": 184.1
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -685,8 +1235,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 185.0, 'trade_date': '2022-03-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-03-31",
+          "value": 185.0
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -698,8 +1259,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 185.9, 'trade_date': '2022-04-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-04-29",
+          "value": 185.9
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -711,8 +1283,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 186.8, 'trade_date': '2022-05-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-05-31",
+          "value": 186.8
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -724,8 +1307,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 187.7, 'trade_date': '2022-06-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-06-30",
+          "value": 187.7
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -737,8 +1331,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 188.6, 'trade_date': '2022-07-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-07-29",
+          "value": 188.6
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -750,8 +1355,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 189.5, 'trade_date': '2022-08-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-08-31",
+          "value": 189.5
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -763,8 +1379,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 190.4, 'trade_date': '2022-09-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.301978+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-09-30",
+          "value": 190.4
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -776,8 +1403,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 191.3, 'trade_date': '2022-10-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-10-31",
+          "value": 191.3
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -789,8 +1427,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 192.2, 'trade_date': '2022-11-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-11-30",
+          "value": 192.2
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -802,8 +1451,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 193.1, 'trade_date': '2022-12-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2022-12-30",
+          "value": 193.1
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -815,8 +1475,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 194.0, 'trade_date': '2023-01-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-01-31",
+          "value": 194.0
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -828,8 +1499,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 194.9, 'trade_date': '2023-02-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-02-28",
+          "value": 194.9
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -841,8 +1523,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 195.8, 'trade_date': '2023-03-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-03-31",
+          "value": 195.8
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -854,8 +1547,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 196.7, 'trade_date': '2023-04-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-04-28",
+          "value": 196.7
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -867,8 +1571,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 197.6, 'trade_date': '2023-05-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-05-31",
+          "value": 197.6
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -880,8 +1595,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 198.5, 'trade_date': '2023-06-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-06-30",
+          "value": 198.5
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -893,8 +1619,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 199.4, 'trade_date': '2023-07-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-07-31",
+          "value": 199.4
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -906,8 +1643,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 200.3, 'trade_date': '2023-08-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-08-31",
+          "value": 200.3
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -919,8 +1667,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 201.2, 'trade_date': '2023-09-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-09-29",
+          "value": 201.2
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -932,8 +1691,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 202.1, 'trade_date': '2023-10-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-10-31",
+          "value": 202.1
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -945,8 +1715,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 203.0, 'trade_date': '2023-11-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-11-30",
+          "value": 203.0
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -958,8 +1739,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 203.9, 'trade_date': '2023-12-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2023-12-29",
+          "value": 203.9
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -971,8 +1763,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 204.8, 'trade_date': '2024-01-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-01-31",
+          "value": 204.8
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -984,8 +1787,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 205.7, 'trade_date': '2024-02-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-02-29",
+          "value": 205.7
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -997,8 +1811,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 206.6, 'trade_date': '2024-03-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-03-29",
+          "value": 206.6
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1010,8 +1835,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 207.5, 'trade_date': '2024-04-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-04-30",
+          "value": 207.5
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1023,8 +1859,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 208.4, 'trade_date': '2024-05-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-05-31",
+          "value": 208.4
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1036,8 +1883,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 209.3, 'trade_date': '2024-06-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-06-28",
+          "value": 209.3
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1049,8 +1907,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 210.2, 'trade_date': '2024-07-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-07-31",
+          "value": 210.2
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1062,8 +1931,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 211.1, 'trade_date': '2024-08-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-08-30",
+          "value": 211.1
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1075,8 +1955,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 212.0, 'trade_date': '2024-09-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-09-30",
+          "value": 212.0
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1088,8 +1979,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 212.9, 'trade_date': '2024-10-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-10-31",
+          "value": 212.9
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1101,8 +2003,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 213.8, 'trade_date': '2024-11-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-11-29",
+          "value": 213.8
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1114,8 +2027,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 214.7, 'trade_date': '2024-12-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2024-12-31",
+          "value": 214.7
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1127,8 +2051,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 215.6, 'trade_date': '2025-01-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-01-31",
+          "value": 215.6
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1140,8 +2075,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 216.5, 'trade_date': '2025-02-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-02-28",
+          "value": 216.5
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1153,8 +2099,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 217.4, 'trade_date': '2025-03-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-03-31",
+          "value": 217.4
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1166,8 +2123,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 218.3, 'trade_date': '2025-04-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-04-30",
+          "value": 218.3
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1179,8 +2147,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 219.2, 'trade_date': '2025-05-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-05-30",
+          "value": 219.2
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1192,8 +2171,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 220.1, 'trade_date': '2025-06-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-06-30",
+          "value": 220.1
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1205,8 +2195,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 221.0, 'trade_date': '2025-07-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-07-31",
+          "value": 221.0
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1218,8 +2219,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 221.9, 'trade_date': '2025-08-29', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-08-29",
+          "value": 221.9
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1231,8 +2243,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 222.8, 'trade_date': '2025-09-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-09-30",
+          "value": 222.8
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1244,8 +2267,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 223.7, 'trade_date': '2025-10-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-10-31",
+          "value": 223.7
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1257,8 +2291,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 224.6, 'trade_date': '2025-11-28', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-11-28",
+          "value": 224.6
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1270,8 +2315,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 225.5, 'trade_date': '2025-12-31', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2025-12-31",
+          "value": 225.5
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1283,8 +2339,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 226.4, 'trade_date': '2026-01-30', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2026-01-30",
+          "value": 226.4
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1296,8 +2363,19 @@
         "fiscal_year": NaN,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'price_close_split_adjusted', 'value': 227.3, 'trade_date': '2026-02-27', 'source': 'yahoo'}",
-        "built_at": "2026-03-06T07:33:26.302981+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": null,
+          "filed_at": null,
+          "metric": "price_close_split_adjusted",
+          "period_end": null,
+          "snapshot_date": null,
+          "source": "yahoo",
+          "trade_date": "2026-02-27",
+          "value": 227.3
+        },
+        "built_at": "2026-03-06T16:00:40.638708+00:00"
       }
     ],
     "fair_value_actual": [
@@ -1311,8 +2389,19 @@
         "fiscal_year": 2018.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 5.0, 'period_end': '2018-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2019-01-30', 'accession_no': '0000320193-2018-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2018-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2019-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2018-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 5.0
+        },
+        "built_at": "2026-03-06T16:00:40.572883+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1324,8 +2413,19 @@
         "fiscal_year": 2019.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 5.35, 'period_end': '2019-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2020-01-30', 'accession_no': '0000320193-2019-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2019-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2020-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2019-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 5.35
+        },
+        "built_at": "2026-03-06T16:00:40.572883+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1337,8 +2437,19 @@
         "fiscal_year": 2020.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 5.7, 'period_end': '2020-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2021-01-30', 'accession_no': '0000320193-2020-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2020-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2021-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2020-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 5.7
+        },
+        "built_at": "2026-03-06T16:00:40.572883+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1350,8 +2461,19 @@
         "fiscal_year": 2021.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 6.05, 'period_end': '2021-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2022-01-30', 'accession_no': '0000320193-2021-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2021-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2022-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2021-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 6.05
+        },
+        "built_at": "2026-03-06T16:00:40.573880+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1363,8 +2485,19 @@
         "fiscal_year": 2022.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 6.4, 'period_end': '2022-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2023-01-30', 'accession_no': '0000320193-2022-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2022-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2023-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2022-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 6.4
+        },
+        "built_at": "2026-03-06T16:00:40.573880+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1376,8 +2509,19 @@
         "fiscal_year": 2023.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 6.75, 'period_end': '2023-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2024-01-30', 'accession_no': '0000320193-2023-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2023-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2024-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2023-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 6.75
+        },
+        "built_at": "2026-03-06T16:00:40.573880+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1389,8 +2533,19 @@
         "fiscal_year": 2024.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 7.1, 'period_end': '2024-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2025-01-30', 'accession_no': '0000320193-2024-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2024-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2025-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2024-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 7.1
+        },
+        "built_at": "2026-03-06T16:00:40.573880+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1402,8 +2557,19 @@
         "fiscal_year": 2025.0,
         "is_estimate": false,
         "display_style": "solid",
-        "tooltip_payload_json": "{'metric': 'eps_diluted_actual', 'value': 7.45, 'period_end': '2025-09-30', 'concept': 'us-gaap:EarningsPerShareDiluted', 'confidence': 'reported', 'filed_at': '2026-01-30', 'accession_no': '0000320193-2025-000010'}",
-        "built_at": "2026-03-06T07:33:26.295995+00:00"
+        "tooltip_payload_json": {
+          "accession_no": "0000320193-2025-000010",
+          "concept": "us-gaap:EarningsPerShareDiluted",
+          "confidence": "reported",
+          "filed_at": "2026-01-30",
+          "metric": "eps_diluted_actual",
+          "period_end": "2025-09-30",
+          "snapshot_date": null,
+          "source": null,
+          "trade_date": null,
+          "value": 7.45
+        },
+        "built_at": "2026-03-06T16:00:40.573880+00:00"
       }
     ],
     "fair_value_estimate": [
@@ -1417,8 +2583,19 @@
         "fiscal_year": 2026.0,
         "is_estimate": true,
         "display_style": "dashed",
-        "tooltip_payload_json": "{'metric': 'eps_estimate_mean', 'value': 8.0, 'period_end': '2026-12-31', 'snapshot_date': '2026-03-01', 'source': 'fmp', 'confidence': 'estimate'}",
-        "built_at": "2026-03-06T07:33:26.297989+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": "estimate",
+          "filed_at": null,
+          "metric": "eps_estimate_mean",
+          "period_end": "2026-12-31",
+          "snapshot_date": "2026-03-01",
+          "source": "fmp",
+          "trade_date": null,
+          "value": 8.0
+        },
+        "built_at": "2026-03-06T16:00:40.576874+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1430,8 +2607,19 @@
         "fiscal_year": 2027.0,
         "is_estimate": true,
         "display_style": "dashed",
-        "tooltip_payload_json": "{'metric': 'eps_estimate_mean', 'value': 8.5, 'period_end': '2027-12-31', 'snapshot_date': '2026-03-01', 'source': 'fmp', 'confidence': 'estimate'}",
-        "built_at": "2026-03-06T07:33:26.297989+00:00"
+        "tooltip_payload_json": {
+          "accession_no": null,
+          "concept": null,
+          "confidence": "estimate",
+          "filed_at": null,
+          "metric": "eps_estimate_mean",
+          "period_end": "2027-12-31",
+          "snapshot_date": "2026-03-01",
+          "source": "fmp",
+          "trade_date": null,
+          "value": 8.5
+        },
+        "built_at": "2026-03-06T16:00:40.576874+00:00"
       }
     ],
     "normal_pe_value": [],
@@ -1448,7 +2636,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2019-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1462,7 +2650,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2020-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1476,7 +2664,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2021-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1490,7 +2678,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2022-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1504,7 +2692,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2023-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1518,7 +2706,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2024-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1532,7 +2720,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2025-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1546,7 +2734,7 @@
         "concept": "us-gaap:EarningsPerShareDiluted",
         "filed_at": "2026-01-30",
         "snapshot_date": NaN,
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1560,7 +2748,7 @@
         "concept": "vendor_estimate",
         "filed_at": NaN,
         "snapshot_date": "2026-03-01",
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1574,12 +2762,620 @@
         "concept": "vendor_estimate",
         "filed_at": NaN,
         "snapshot_date": "2026-03-01",
-        "built_at": "2026-03-06T07:33:26.344864+00:00"
+        "built_at": "2026-03-06T16:00:40.843162+00:00"
       }
     ]
   },
   "tables": {
     "annual": [
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2018,
+        "period_end_date": "2018-09-30",
+        "duration_days": 365,
+        "value": 5.0,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2019-01-30",
+        "accession_no": "0000320193-2018-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "376fee899349d0b69e513033953c8d5b9aa6269b5cfee7d7f2124944778ceb79",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2019,
+        "period_end_date": "2019-09-30",
+        "duration_days": 365,
+        "value": 5.35,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2020-01-30",
+        "accession_no": "0000320193-2019-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "77601227d468b755bb7acd85e20b843fb4987392ca7fef2a8f3891ee22812079",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2020,
+        "period_end_date": "2020-09-30",
+        "duration_days": 365,
+        "value": 5.7,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2021-01-30",
+        "accession_no": "0000320193-2020-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "94d0404151f05e00169a655299abf88f4d2dd8927d9d198bb2fb94584404b2c6",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2021,
+        "period_end_date": "2021-09-30",
+        "duration_days": 365,
+        "value": 6.05,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2022-01-30",
+        "accession_no": "0000320193-2021-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "0034adfba38ef216b42eda0e0950d9a2532509932eb04ab70aca86def8517321",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2022,
+        "period_end_date": "2022-09-30",
+        "duration_days": 365,
+        "value": 6.4,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2023-01-30",
+        "accession_no": "0000320193-2022-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "c28ba36a7c48823b5975c4420aee0f8ffacd3cc1a316f4ac37cbbde947e2a5ff",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2023,
+        "period_end_date": "2023-09-30",
+        "duration_days": 365,
+        "value": 6.75,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2024-01-30",
+        "accession_no": "0000320193-2023-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "ebf7776300fb7dea8a77f1796bd9eee1c5f6818afabcd987d28f0bf6fd9f0cdd",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "period_end_date": "2024-09-30",
+        "duration_days": 365,
+        "value": 7.1,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2025-01-30",
+        "accession_no": "0000320193-2024-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "c986f2f95b0e6577e9776af7a55ab6c15fee42e36f474615160f1de27886c50d",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "period_end_date": "2025-09-30",
+        "duration_days": 365,
+        "value": 7.45,
+        "unit": "USD/share",
+        "form_type": "10-K",
+        "filed_at": "2026-01-30",
+        "accession_no": "0000320193-2025-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "6fe83df8e8df2bb6c077529c79d9a1d080c5b3dbb45a0cf5ec88721fcce955aa",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2018,
+        "period_end_date": "2018-09-30",
+        "duration_days": 365,
+        "value": 20000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2019-01-30",
+        "accession_no": "0000320193-2018-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "1c975d59bfcf2fa906b788c88242e248e5c3c0f044a27396482ef88c2a7cfb40",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2019,
+        "period_end_date": "2019-09-30",
+        "duration_days": 365,
+        "value": 21500000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2020-01-30",
+        "accession_no": "0000320193-2019-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "f7e46856e9992ab20690166c893af8c77d0548d5583cc11132dd544f58c92965",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2020,
+        "period_end_date": "2020-09-30",
+        "duration_days": 365,
+        "value": 23000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2021-01-30",
+        "accession_no": "0000320193-2020-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "27d69575bd7aeafa98432d61ee40d6ce021b5640e3df92ce3b43d6b59a0d872a",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2021,
+        "period_end_date": "2021-09-30",
+        "duration_days": 365,
+        "value": 24500000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2022-01-30",
+        "accession_no": "0000320193-2021-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "9afc41d234cdf7d9c1e8f282d70e3cd3af329150cb4c52251d4fbb4155fabae8",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2022,
+        "period_end_date": "2022-09-30",
+        "duration_days": 365,
+        "value": 26000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2023-01-30",
+        "accession_no": "0000320193-2022-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "3def351554c98f76abb46b4008a55d5cadfb7179f2e49ded4c6b5c62a4bf7475",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2023,
+        "period_end_date": "2023-09-30",
+        "duration_days": 365,
+        "value": 27500000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2024-01-30",
+        "accession_no": "0000320193-2023-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "94b328db9836d3f70633a92856a7516a7fd834ebf65bb73ba995acbb9283f12b",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2024,
+        "period_end_date": "2024-09-30",
+        "duration_days": 365,
+        "value": 29000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2025-01-30",
+        "accession_no": "0000320193-2024-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "c9720786f931ac17a995783116acbf58f71156d377d15764800be7f466d28de1",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "net_income_actual",
+        "fiscal_year": 2025,
+        "period_end_date": "2025-09-30",
+        "duration_days": 365,
+        "value": 30500000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2026-01-30",
+        "accession_no": "0000320193-2025-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:NetIncomeLoss",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "817fe516fd1578f6de370dedd7357a096bd08ecc1bccc0c37a7a6a5c5a4a9ba0",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2018,
+        "period_end_date": "2018-09-30",
+        "duration_days": 365,
+        "value": 100000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2019-01-30",
+        "accession_no": "0000320193-2018-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "2961328f06f3c057598191f06574d8f18bb33cc817ee61891f4df38707277ff6",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2019,
+        "period_end_date": "2019-09-30",
+        "duration_days": 365,
+        "value": 104000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2020-01-30",
+        "accession_no": "0000320193-2019-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "888d4550b6aa3c8123db40a2234e08d11bae1f32561b4e36b221f05a32d7ec8e",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2020,
+        "period_end_date": "2020-09-30",
+        "duration_days": 365,
+        "value": 108000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2021-01-30",
+        "accession_no": "0000320193-2020-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "0087f24aefe33065e564bcfcb874ae9e025b077a8cd8b58ec8c4028b94fcbdfe",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2021,
+        "period_end_date": "2021-09-30",
+        "duration_days": 365,
+        "value": 112000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2022-01-30",
+        "accession_no": "0000320193-2021-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "f299322f816aeeba671ae9c862f4e23c1281d8abee7a90f1ec176acae342e5e7",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2022,
+        "period_end_date": "2022-09-30",
+        "duration_days": 365,
+        "value": 116000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2023-01-30",
+        "accession_no": "0000320193-2022-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "ae3a5cb5d050454e913d8a9ac1cfdb56c0b547a237783e37c4167fda7c07ae36",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2023,
+        "period_end_date": "2023-09-30",
+        "duration_days": 365,
+        "value": 120000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2024-01-30",
+        "accession_no": "0000320193-2023-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "d1e6a04b590938ddf580572d900ab0a769075f24ad09f9ef4c766ca5987483f4",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2024,
+        "period_end_date": "2024-09-30",
+        "duration_days": 365,
+        "value": 124000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2025-01-30",
+        "accession_no": "0000320193-2024-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "bc26e07f83283843f28465526ad8de147e4e97916789591113b045c69994e673",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "revenue_actual",
+        "fiscal_year": 2025,
+        "period_end_date": "2025-09-30",
+        "duration_days": 365,
+        "value": 128000000000.0,
+        "unit": "USD",
+        "form_type": "10-K",
+        "filed_at": "2026-01-30",
+        "accession_no": "0000320193-2025-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "21336d5427de094fa6703fecba0c94704b9322977c1003f75d1c5f1b77566148",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2018,
+        "period_end_date": "2018-09-30",
+        "duration_days": 365,
+        "value": 16000000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2019-01-30",
+        "accession_no": "0000320193-2018-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "433572f37a6e3b7a4a72eae011a0aba6bebd6d6200f59555ef02390446d327ed",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2019,
+        "period_end_date": "2019-09-30",
+        "duration_days": 365,
+        "value": 15880000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2020-01-30",
+        "accession_no": "0000320193-2019-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "0ba99097466d62bb553cc4980c6166151d0e18244534a8f71fc8a732c1186224",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2020,
+        "period_end_date": "2020-09-30",
+        "duration_days": 365,
+        "value": 15760000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2021-01-30",
+        "accession_no": "0000320193-2020-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "c816087add66d48c75bb45476ac0ab9a91f3d040fa31f590c9f2e04a161c7244",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2021,
+        "period_end_date": "2021-09-30",
+        "duration_days": 365,
+        "value": 15640000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2022-01-30",
+        "accession_no": "0000320193-2021-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "53467d876a9c914869b1866158acbfb478ad59582963995b20255da8527b4f27",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2022,
+        "period_end_date": "2022-09-30",
+        "duration_days": 365,
+        "value": 15520000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2023-01-30",
+        "accession_no": "0000320193-2022-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "c2851cf04f286460e1fb662b7ce8242d271adb22e5a4cf2c34098a09efe509a9",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2023,
+        "period_end_date": "2023-09-30",
+        "duration_days": 365,
+        "value": 15400000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2024-01-30",
+        "accession_no": "0000320193-2023-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "0bbddc2a0803732ca2c4bf226b57dae411fd8ad7baf12c6a10fbcfaa4ee4ce70",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2024,
+        "period_end_date": "2024-09-30",
+        "duration_days": 365,
+        "value": 15280000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2025-01-30",
+        "accession_no": "0000320193-2024-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "027b40d3af62c03ec7e078a65e6a2abdfa95f5cbc2f25924e87d85e65a9ad7df",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "shares_diluted_actual",
+        "fiscal_year": 2025,
+        "period_end_date": "2025-09-30",
+        "duration_days": 365,
+        "value": 15160000000.0,
+        "unit": "shares",
+        "form_type": "10-K",
+        "filed_at": "2026-01-30",
+        "accession_no": "0000320193-2025-000010",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "d3642b0270d1e5f002d02031e10f7cf4cb2381811a98981a5d1cd0ee6680bade",
+        "ingested_at": "2026-03-06T07:09:11.241765+00:00"
+      },
       {
         "company_key": "0000320193",
         "metric_code": "eps_diluted_actual",
@@ -1597,7 +3393,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "376fee899349d0b69e513033953c8d5b9aa6269b5cfee7d7f2124944778ceb79",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1616,7 +3412,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "77601227d468b755bb7acd85e20b843fb4987392ca7fef2a8f3891ee22812079",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1635,7 +3431,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "94d0404151f05e00169a655299abf88f4d2dd8927d9d198bb2fb94584404b2c6",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1654,7 +3450,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "0034adfba38ef216b42eda0e0950d9a2532509932eb04ab70aca86def8517321",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1673,7 +3469,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "c28ba36a7c48823b5975c4420aee0f8ffacd3cc1a316f4ac37cbbde947e2a5ff",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1692,7 +3488,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "ebf7776300fb7dea8a77f1796bd9eee1c5f6818afabcd987d28f0bf6fd9f0cdd",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1711,7 +3507,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "c986f2f95b0e6577e9776af7a55ab6c15fee42e36f474615160f1de27886c50d",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1730,7 +3526,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "6fe83df8e8df2bb6c077529c79d9a1d080c5b3dbb45a0cf5ec88721fcce955aa",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1749,7 +3545,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "1c975d59bfcf2fa906b788c88242e248e5c3c0f044a27396482ef88c2a7cfb40",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1768,7 +3564,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "f7e46856e9992ab20690166c893af8c77d0548d5583cc11132dd544f58c92965",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1787,7 +3583,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "27d69575bd7aeafa98432d61ee40d6ce021b5640e3df92ce3b43d6b59a0d872a",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1806,7 +3602,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "9afc41d234cdf7d9c1e8f282d70e3cd3af329150cb4c52251d4fbb4155fabae8",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1825,7 +3621,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "3def351554c98f76abb46b4008a55d5cadfb7179f2e49ded4c6b5c62a4bf7475",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1844,7 +3640,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "94b328db9836d3f70633a92856a7516a7fd834ebf65bb73ba995acbb9283f12b",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1863,7 +3659,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "c9720786f931ac17a995783116acbf58f71156d377d15764800be7f466d28de1",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1882,7 +3678,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "817fe516fd1578f6de370dedd7357a096bd08ecc1bccc0c37a7a6a5c5a4a9ba0",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1901,7 +3697,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "2961328f06f3c057598191f06574d8f18bb33cc817ee61891f4df38707277ff6",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1920,7 +3716,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "888d4550b6aa3c8123db40a2234e08d11bae1f32561b4e36b221f05a32d7ec8e",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1939,7 +3735,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "0087f24aefe33065e564bcfcb874ae9e025b077a8cd8b58ec8c4028b94fcbdfe",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1958,7 +3754,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "f299322f816aeeba671ae9c862f4e23c1281d8abee7a90f1ec176acae342e5e7",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1977,7 +3773,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "ae3a5cb5d050454e913d8a9ac1cfdb56c0b547a237783e37c4167fda7c07ae36",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -1996,7 +3792,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "d1e6a04b590938ddf580572d900ab0a769075f24ad09f9ef4c766ca5987483f4",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2015,7 +3811,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "bc26e07f83283843f28465526ad8de147e4e97916789591113b045c69994e673",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2034,7 +3830,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "21336d5427de094fa6703fecba0c94704b9322977c1003f75d1c5f1b77566148",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2053,7 +3849,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "433572f37a6e3b7a4a72eae011a0aba6bebd6d6200f59555ef02390446d327ed",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2072,7 +3868,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "0ba99097466d62bb553cc4980c6166151d0e18244534a8f71fc8a732c1186224",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2091,7 +3887,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "c816087add66d48c75bb45476ac0ab9a91f3d040fa31f590c9f2e04a161c7244",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2110,7 +3906,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "53467d876a9c914869b1866158acbfb478ad59582963995b20255da8527b4f27",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2129,7 +3925,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "c2851cf04f286460e1fb662b7ce8242d271adb22e5a4cf2c34098a09efe509a9",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2148,7 +3944,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "0bbddc2a0803732ca2c4bf226b57dae411fd8ad7baf12c6a10fbcfaa4ee4ce70",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2167,7 +3963,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "027b40d3af62c03ec7e078a65e6a2abdfa95f5cbc2f25924e87d85e65a9ad7df",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2186,10 +3982,170 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "d3642b0270d1e5f002d02031e10f7cf4cb2381811a98981a5d1cd0ee6680bade",
-        "ingested_at": "2026-03-06T07:33:26.069600+00:00"
+        "ingested_at": "2026-03-06T16:00:39.488782+00:00"
       }
     ],
     "quarterly": [
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "fiscal_quarter": 1,
+        "period_end_date": "2024-03-30",
+        "duration_days": 90,
+        "value": 1.8,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2024-04-15",
+        "accession_no": "0000320193-2024-Q01",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "5abfd03f884f3d3cc53fe88ee97ba63313e5f013e54f654a0a28914b50106646",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "fiscal_quarter": 2,
+        "period_end_date": "2024-06-30",
+        "duration_days": 90,
+        "value": 1.83,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2024-07-15",
+        "accession_no": "0000320193-2024-Q02",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "720111286ebf49caed54ab3fd55ae952171b0fec1f9f588dca9beb35a01a59e0",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "fiscal_quarter": 3,
+        "period_end_date": "2024-09-30",
+        "duration_days": 90,
+        "value": 1.86,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2024-10-15",
+        "accession_no": "0000320193-2024-Q03",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "5722dcd427bdb3a67f1cd4ba2d3f77a797fd53fe5ef1e20aae12e31943cf55d2",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "fiscal_quarter": 1,
+        "period_end_date": "2025-03-30",
+        "duration_days": 90,
+        "value": 1.89,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2025-04-15",
+        "accession_no": "0000320193-2025-Q01",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "b181ca6f69f596d68b4359d714dd349f3bcf6e0b801bf8b99aebe574755793a8",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "fiscal_quarter": 2,
+        "period_end_date": "2025-06-30",
+        "duration_days": 90,
+        "value": 1.92,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2025-07-15",
+        "accession_no": "0000320193-2025-Q02",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "89eb6558f6131661f52713886c4e605792b204929588c9f85028e99fb76235b1",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "fiscal_quarter": 3,
+        "period_end_date": "2025-09-30",
+        "duration_days": 90,
+        "value": 1.95,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2025-10-15",
+        "accession_no": "0000320193-2025-Q03",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "reported",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "1aa0148c976c6814608d2c957f084ecb6b9d1f36b9dabcf1c9c9276ecc81bfcc",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2024,
+        "fiscal_quarter": 4,
+        "period_end_date": "2024-09-30",
+        "duration_days": 90,
+        "value": 1.6099999999999994,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2024-10-15",
+        "accession_no": "0000320193-2024-Q03",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "derived",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "9418b72bc1cf071fefc8f92bbae2eaa699d7ff78917bc96890b870f437a9181e",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
+      {
+        "company_key": "320193",
+        "metric_code": "eps_diluted_actual",
+        "fiscal_year": 2025,
+        "fiscal_quarter": 4,
+        "period_end_date": "2025-09-30",
+        "duration_days": 90,
+        "value": 1.6900000000000004,
+        "unit": "USD/share",
+        "form_type": "10-Q",
+        "filed_at": "2025-10-15",
+        "accession_no": "0000320193-2025-Q03",
+        "taxonomy": "us-gaap",
+        "concept": "us-gaap:EarningsPerShareDiluted",
+        "confidence": "derived",
+        "amended": false,
+        "source_name": "sec",
+        "raw_record_hash": "77a190d801ddc4f2219bbf99e9ac0410c915d93cc2d1ac821a8423a90831a21c",
+        "ingested_at": "2026-03-06T07:09:11.265699+00:00"
+      },
       {
         "company_key": "0000320193",
         "metric_code": "eps_diluted_actual",
@@ -2208,7 +4164,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "5abfd03f884f3d3cc53fe88ee97ba63313e5f013e54f654a0a28914b50106646",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2228,7 +4184,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "720111286ebf49caed54ab3fd55ae952171b0fec1f9f588dca9beb35a01a59e0",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2248,7 +4204,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "5722dcd427bdb3a67f1cd4ba2d3f77a797fd53fe5ef1e20aae12e31943cf55d2",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2268,7 +4224,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "b181ca6f69f596d68b4359d714dd349f3bcf6e0b801bf8b99aebe574755793a8",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2288,7 +4244,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "89eb6558f6131661f52713886c4e605792b204929588c9f85028e99fb76235b1",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2308,7 +4264,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "1aa0148c976c6814608d2c957f084ecb6b9d1f36b9dabcf1c9c9276ecc81bfcc",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2328,7 +4284,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "9418b72bc1cf071fefc8f92bbae2eaa699d7ff78917bc96890b870f437a9181e",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       },
       {
         "company_key": "0000320193",
@@ -2348,7 +4304,7 @@
         "amended": false,
         "source_name": "sec",
         "raw_record_hash": "77a190d801ddc4f2219bbf99e9ac0410c915d93cc2d1ac821a8423a90831a21c",
-        "ingested_at": "2026-03-06T07:33:26.084560+00:00"
+        "ingested_at": "2026-03-06T16:00:39.695230+00:00"
       }
     ],
     "audit": [
@@ -2364,7 +4320,7 @@
         "filed_at": "2019-01-30",
         "accession_no": "0000320193-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2378,7 +4334,7 @@
         "filed_at": "2019-01-30",
         "accession_no": "0000320193-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2392,7 +4348,7 @@
         "filed_at": "2019-01-30",
         "accession_no": "0000320193-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2406,7 +4362,7 @@
         "filed_at": "2019-01-30",
         "accession_no": "0000320193-2018-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2420,7 +4376,7 @@
         "filed_at": "2020-01-30",
         "accession_no": "0000320193-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2434,7 +4390,7 @@
         "filed_at": "2020-01-30",
         "accession_no": "0000320193-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2448,7 +4404,7 @@
         "filed_at": "2020-01-30",
         "accession_no": "0000320193-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2462,7 +4418,7 @@
         "filed_at": "2020-01-30",
         "accession_no": "0000320193-2019-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2476,7 +4432,7 @@
         "filed_at": "2021-01-30",
         "accession_no": "0000320193-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2490,7 +4446,7 @@
         "filed_at": "2021-01-30",
         "accession_no": "0000320193-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2504,7 +4460,7 @@
         "filed_at": "2021-01-30",
         "accession_no": "0000320193-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2518,7 +4474,7 @@
         "filed_at": "2021-01-30",
         "accession_no": "0000320193-2020-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2532,7 +4488,7 @@
         "filed_at": "2022-01-30",
         "accession_no": "0000320193-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2546,7 +4502,7 @@
         "filed_at": "2022-01-30",
         "accession_no": "0000320193-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2560,7 +4516,7 @@
         "filed_at": "2022-01-30",
         "accession_no": "0000320193-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2574,7 +4530,7 @@
         "filed_at": "2022-01-30",
         "accession_no": "0000320193-2021-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2588,7 +4544,7 @@
         "filed_at": "2023-01-30",
         "accession_no": "0000320193-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2602,7 +4558,7 @@
         "filed_at": "2023-01-30",
         "accession_no": "0000320193-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2616,7 +4572,7 @@
         "filed_at": "2023-01-30",
         "accession_no": "0000320193-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2630,7 +4586,7 @@
         "filed_at": "2023-01-30",
         "accession_no": "0000320193-2022-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2644,7 +4600,7 @@
         "filed_at": "2024-01-30",
         "accession_no": "0000320193-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2658,7 +4614,7 @@
         "filed_at": "2024-01-30",
         "accession_no": "0000320193-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2672,7 +4628,7 @@
         "filed_at": "2024-01-30",
         "accession_no": "0000320193-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2686,7 +4642,7 @@
         "filed_at": "2024-01-30",
         "accession_no": "0000320193-2023-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2700,7 +4656,7 @@
         "filed_at": "2024-04-15",
         "accession_no": "0000320193-2024-Q01",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2714,7 +4670,7 @@
         "filed_at": "2024-07-15",
         "accession_no": "0000320193-2024-Q02",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2728,7 +4684,7 @@
         "filed_at": "2025-01-30",
         "accession_no": "0000320193-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2742,7 +4698,7 @@
         "filed_at": "2024-10-15",
         "accession_no": "0000320193-2024-Q03",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2756,7 +4712,7 @@
         "filed_at": "2025-01-30",
         "accession_no": "0000320193-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2770,7 +4726,7 @@
         "filed_at": "2025-01-30",
         "accession_no": "0000320193-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2784,7 +4740,7 @@
         "filed_at": "2025-01-30",
         "accession_no": "0000320193-2024-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2798,7 +4754,7 @@
         "filed_at": "2025-04-15",
         "accession_no": "0000320193-2025-Q01",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2812,7 +4768,7 @@
         "filed_at": "2025-07-15",
         "accession_no": "0000320193-2025-Q02",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2826,7 +4782,7 @@
         "filed_at": "2026-01-30",
         "accession_no": "0000320193-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "eps_diluted_actual",
@@ -2840,7 +4796,7 @@
         "filed_at": "2025-10-15",
         "accession_no": "0000320193-2025-Q03",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "net_income_actual",
@@ -2854,7 +4810,7 @@
         "filed_at": "2026-01-30",
         "accession_no": "0000320193-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "revenue_actual",
@@ -2868,7 +4824,7 @@
         "filed_at": "2026-01-30",
         "accession_no": "0000320193-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       },
       {
         "metric": "shares_diluted_actual",
@@ -2882,7 +4838,7 @@
         "filed_at": "2026-01-30",
         "accession_no": "0000320193-2025-000010",
         "source_name": "sec",
-        "built_at": "2026-03-06T07:33:26.478505+00:00"
+        "built_at": "2026-03-06T16:00:41.292596+00:00"
       }
     ],
     "quality_issues": []
