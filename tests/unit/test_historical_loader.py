@@ -3,8 +3,10 @@ from __future__ import annotations
 import pandas as pd
 import pytest
 
-from fg.domain.models import CompanyRef
+from fg.domain.enums import PEMethod
+from fg.domain.models import CompanyRef, RefreshRequest
 from fg.pipelines.historical_loader import HistoricalDataLoader, canonicalize_companyfacts_payload
+from fg.services.refresh_service import RefreshService
 from fg.settings import Settings
 
 
@@ -99,6 +101,36 @@ def test_historical_loader_fixture_mode_populates_storage_and_duckdb_views(setti
     assert "v_dim_company" in created_views
     assert not inventory[inventory["table_name"] == "dim_company"].empty
     assert int(dim_count.iloc[0]["row_count"]) == 1
+
+
+def test_historical_loader_handles_fmp_failure(settings: Settings, monkeypatch: pytest.MonkeyPatch) -> None:
+    def _raise_fmp(*args, **kwargs):
+        raise RuntimeError("FMP unavailable")
+
+    monkeypatch.setattr("fg.pipelines.historical_loader.ingest_fmp", _raise_fmp)
+    loader = HistoricalDataLoader(settings)
+
+    result = loader.load_ticker("AAPL", fixture_mode=True, build_gold=False)
+
+    assert result["status"] == "ok"
+    assert result["rows"]["silver_estimate_snapshot"] == 0
+    assert any("Forward estimates unavailable" in message for message in result["warnings"])
+
+
+def test_refresh_service_handles_fmp_failure(settings: Settings, monkeypatch: pytest.MonkeyPatch) -> None:
+    def _raise_fmp(*args, **kwargs):
+        raise RuntimeError("FMP unavailable")
+
+    monkeypatch.setattr("fg.services.refresh_service.ingest_fmp", _raise_fmp)
+    service = RefreshService(settings)
+
+    result = service.refresh_ticker(
+        RefreshRequest(ticker="AAPL", lookback_years=20, pe_method=PEMethod.STATIC_15),
+        fixture_mode=True,
+    )
+
+    assert result["ticker"] == "AAPL"
+    assert result["rows"]["estimates"] == 0
 
 
 def _fact(

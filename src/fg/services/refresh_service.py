@@ -12,7 +12,7 @@ import pandas as pd
 
 from fg.domain.enums import PEMethod
 from fg.domain.models import RefreshRequest, ViewModel, ViewModelMeta
-from fg.ingestion.fmp_ingest import ingest_fmp
+from fg.ingestion.fmp_ingest import empty_estimate_payload, ingest_fmp
 from fg.ingestion.resolve_company import resolve_company
 from fg.ingestion.sec_ingest import ingest_sec
 from fg.ingestion.yahoo_ingest import ingest_yahoo
@@ -59,12 +59,17 @@ class RefreshService:
             company=company,
             fixture_mode=use_fixtures,
         )
-        estimate_payload = ingest_fmp(
-            settings=self.settings,
-            company=company,
-            fixture_mode=use_fixtures or not self.settings.fmp_api_key,
-        )
-        self._update_dim_pulls(company.company_key)
+        estimate_available = True
+        try:
+            estimate_payload = ingest_fmp(
+                settings=self.settings,
+                company=company,
+                fixture_mode=use_fixtures or not self.settings.fmp_api_key,
+            )
+        except Exception:
+            estimate_payload = empty_estimate_payload(company.ticker)
+            estimate_available = False
+        self._update_dim_pulls(company.company_key, include_fmp=estimate_available)
 
         annual = normalize_sec_annual(self.settings, company.company_key, companyfacts)
         quarterly, _ttm = normalize_sec_quarterly(self.settings, company.company_key, companyfacts)
@@ -235,14 +240,15 @@ class RefreshService:
             results.append(self.refresh_ticker(req, fixture_mode=True))
         return results
 
-    def _update_dim_pulls(self, company_key: str) -> None:
+    def _update_dim_pulls(self, company_key: str, include_fmp: bool = True) -> None:
         dim = read_table(self.settings, "silver", "dim_company", key=company_key)
         if dim.empty:
             return
         now = datetime.now(tz=timezone.utc).date().isoformat()
         dim.loc[:, "last_sec_pull_at"] = now
         dim.loc[:, "last_yahoo_pull_at"] = now
-        dim.loc[:, "last_fmp_pull_at"] = now
+        if include_fmp:
+            dim.loc[:, "last_fmp_pull_at"] = now
         upsert_table(
             settings=self.settings,
             layer="silver",

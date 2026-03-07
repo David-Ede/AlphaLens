@@ -33,7 +33,7 @@ def create_quality_issue(
 
 def evaluate_freshness(last_pull_at: str | None, max_age_days: int) -> FreshnessStatus:
     """Evaluate freshness status against age threshold."""
-    if not last_pull_at:
+    if not last_pull_at or str(last_pull_at).strip().lower() in {"none", "nan", "nat"}:
         return FreshnessStatus.UNKNOWN
     pull_date = date.fromisoformat(last_pull_at[:10])
     age = (datetime.now(tz=timezone.utc).date() - pull_date).days

@@ -11,6 +11,24 @@ import pandas as pd
 from fg.settings import Settings
 from fg.storage.repositories import upsert_table
 
+ESTIMATE_COLUMNS = [
+    "company_key",
+    "as_of_date",
+    "target_period_type",
+    "target_fiscal_year",
+    "target_period_end_date",
+    "metric_code",
+    "mean_value",
+    "high_value",
+    "low_value",
+    "analyst_count",
+    "unit",
+    "currency",
+    "source_name",
+    "raw_record_hash",
+    "ingested_at",
+]
+
 
 def normalize_estimates(
     settings: Settings,
@@ -52,6 +70,8 @@ def normalize_estimates(
             }
         )
     df = pd.DataFrame(normalized)
+    if df.empty:
+        df = pd.DataFrame(columns=ESTIMATE_COLUMNS)
     if not df.empty:
         df = df[df["target_fiscal_year"] >= datetime.now(tz=timezone.utc).year - 1]
     upsert_table(

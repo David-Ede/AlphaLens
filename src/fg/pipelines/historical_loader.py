@@ -13,7 +13,7 @@ import pandas as pd
 from fg.domain.enums import PEMethod
 from fg.domain.models import CompanyRef
 from fg.domain.periods import is_annual_form
-from fg.ingestion.fmp_ingest import ingest_fmp
+from fg.ingestion.fmp_ingest import empty_estimate_payload, ingest_fmp
 from fg.ingestion.resolve_company import resolve_company
 from fg.ingestion.sec_ingest import ingest_sec
 from fg.ingestion.yahoo_ingest import ingest_yahoo
@@ -117,6 +117,7 @@ class HistoricalDataLoader:
         ticker: str,
         *,
         fixture_mode: bool = False,
+        include_estimates: bool = True,
         build_gold: bool = False,
         lookback_years: int = 20,
         pe_method: PEMethod | str = PEMethod.STATIC_15,
@@ -149,12 +150,25 @@ class HistoricalDataLoader:
             company=company,
             fixture_mode=fixture_mode,
         )
-        estimate_payload = ingest_fmp(
-            settings=self.settings,
-            company=company,
-            fixture_mode=fixture_mode or not self.settings.fmp_api_key,
-        )
-        self._update_pull_timestamps(company.company_key)
+        estimate_warning: str | None = None
+        estimate_available = include_estimates
+        estimate_ingested = False
+        if include_estimates:
+            try:
+                estimate_payload = ingest_fmp(
+                    settings=self.settings,
+                    company=company,
+                    fixture_mode=fixture_mode or not self.settings.fmp_api_key,
+                )
+                estimate_ingested = True
+            except Exception as exc:
+                estimate_payload = empty_estimate_payload(company.ticker)
+                estimate_warning = f"Forward estimates unavailable for {company.ticker}: {exc}"
+                estimate_available = False
+        else:
+            estimate_payload = empty_estimate_payload(company.ticker)
+            estimate_available = False
+        self._update_pull_timestamps(company.company_key, include_fmp=estimate_available)
 
         annual = normalize_sec_annual(self.settings, company.company_key, canonical_facts)
         quarterly, ttm = normalize_sec_quarterly(self.settings, company.company_key, canonical_facts)
@@ -213,6 +227,8 @@ class HistoricalDataLoader:
                 str(message)
                 for message in issues[issues["severity"] != "error"]["message"].dropna().tolist()
             ]
+        if estimate_warning:
+            warning_messages.append(estimate_warning)
 
         result = {
             "status": "ok",
@@ -226,7 +242,7 @@ class HistoricalDataLoader:
                 "bronze_sec_companyfacts": 1 if companyfacts else 0,
                 "bronze_yahoo_prices": len(prices),
                 "bronze_yahoo_actions": len(actions),
-                "bronze_fmp_estimates": 1 if estimate_payload else 0,
+                "bronze_fmp_estimates": 1 if estimate_ingested else 0,
                 "silver_annual": len(annual),
                 "silver_quarterly": len(quarterly),
                 "silver_ttm": len(ttm),
@@ -245,6 +261,7 @@ class HistoricalDataLoader:
         tickers: list[str],
         *,
         fixture_mode: bool = False,
+        include_estimates: bool = True,
         build_gold: bool = False,
         lookback_years: int = 20,
         pe_method: PEMethod | str = PEMethod.STATIC_15,
@@ -262,6 +279,7 @@ class HistoricalDataLoader:
                 result = self.load_ticker(
                     ticker=ticker,
                     fixture_mode=fixture_mode,
+                    include_estimates=include_estimates,
                     build_gold=build_gold,
                     lookback_years=lookback_years,
                     pe_method=pe_method,
@@ -374,14 +392,15 @@ class HistoricalDataLoader:
             )
         return updated
 
-    def _update_pull_timestamps(self, company_key: str) -> None:
+    def _update_pull_timestamps(self, company_key: str, include_fmp: bool = True) -> None:
         dim = read_table(self.settings, "silver", "dim_company", key=company_key)
         if dim.empty:
             return
         today = datetime.now(tz=timezone.utc).date().isoformat()
         dim.loc[:, "last_sec_pull_at"] = today
         dim.loc[:, "last_yahoo_pull_at"] = today
-        dim.loc[:, "last_fmp_pull_at"] = today
+        if include_fmp:
+            dim.loc[:, "last_fmp_pull_at"] = today
         upsert_table(
             settings=self.settings,
             layer="silver",

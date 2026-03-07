@@ -21,6 +21,16 @@ def _load_fixture(ticker: str) -> dict[str, Any]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def empty_estimate_payload(ticker: str) -> dict[str, Any]:
+    """Build an empty annual estimate payload when FMP is unavailable."""
+    return {
+        "ticker": ticker.upper(),
+        "as_of_date": datetime.now(tz=timezone.utc).date().isoformat(),
+        "period": "annual",
+        "rows": [],
+    }
+
+
 def ingest_fmp(
     settings: Settings,
     company: CompanyRef,
