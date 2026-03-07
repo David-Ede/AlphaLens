@@ -182,7 +182,7 @@ class RefreshService:
                 "kpis": {},
                 "series": {"price": [], "fair_value_actual": [], "fair_value_estimate": [], "normal_pe_value": [], "eps_bars": []},
                 "tables": {"annual": [], "quarterly": [], "audit": [], "quality_issues": []},
-                "warnings": ["No data loaded yet. Enter a ticker and click Refresh."],
+                "warnings": ["No data loaded yet. Select a ticker and click Refresh."],
             }
         company_key = str(row.iloc[-1]["company_key"])
         issuer_name = str(row.iloc[-1]["issuer_name"])

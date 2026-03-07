@@ -35,7 +35,7 @@ def register_callbacks() -> None:
         if not refresh_clicks:
             return no_update, no_update, False, True
         if not request_data or not request_data.get("ticker"):
-            return {"status": "error"}, "Unable to resolve ticker. Check the symbol and try again.", False, True
+            return {"status": "error"}, "Select a ticker from the list and try again.", False, True
         service = RefreshService(get_settings())
         request = RefreshRequest(
             ticker=str(request_data["ticker"]),

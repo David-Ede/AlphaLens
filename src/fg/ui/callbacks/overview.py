@@ -18,6 +18,17 @@ from fg.storage.repositories import read_table
 from fg.ui.components.cards import build_kpi_cards
 
 
+def resolve_price_history_start_date(daily_price_df: pd.DataFrame, window_years: int | None) -> str:
+    """Resolve trailing window start date from the latest available price date."""
+    years = max(int(window_years or 20), 1)
+    if daily_price_df.empty or "trade_date" not in daily_price_df.columns:
+        anchor_date = pd.Timestamp.today().normalize()
+    else:
+        trade_dates = pd.to_datetime(daily_price_df["trade_date"], errors="coerce").dropna()
+        anchor_date = trade_dates.max().normalize() if not trade_dates.empty else pd.Timestamp.today().normalize()
+    return str((anchor_date - pd.DateOffset(years=years)).date())
+
+
 def register_callbacks() -> None:
     """Register overview callbacks."""
 
@@ -46,12 +57,12 @@ def register_callbacks() -> None:
         }
 
     @callback(
-        Output("overview-manual-pe-input", "style"),
+        Output("overview-manual-pe-group", "style"),
         Input("overview-pe-method-radio", "value"),
     )
     def toggle_manual_pe(pe_method: str) -> dict[str, str]:
         if pe_method == "static_15":
-            return {"display": "inline-block", "marginLeft": "8px", "width": "120px"}
+            return {}
         return {"display": "none"}
 
     @callback(
@@ -66,7 +77,7 @@ def register_callbacks() -> None:
                 "kpis": {},
                 "series": {"price": [], "fair_value_actual": [], "fair_value_estimate": [], "normal_pe_value": [], "eps_bars": []},
                 "tables": {"annual": [], "quarterly": [], "audit": [], "quality_issues": []},
-                "warnings": ["No data loaded yet. Enter a ticker and click Refresh."],
+                "warnings": ["No data loaded yet. Select a ticker and click Refresh."],
             }
         service = RefreshService(get_settings())
         return service.load_view_model(
@@ -81,9 +92,18 @@ def register_callbacks() -> None:
     )
     def render_kpis(dataset: dict[str, Any] | None) -> html.Div:
         if not dataset:
-            return html.Div("No data loaded yet. Enter a ticker and click Refresh.")
+            return html.Div("No data loaded yet. Select a ticker and click Refresh.")
         kpis = dataset.get("kpis", {})
         return build_kpi_cards(kpis)
+
+    @callback(
+        Output("overview-price-history-window-value", "children"),
+        Input("overview-price-history-years-slider", "value"),
+    )
+    def render_price_history_window_value(history_years: int | None) -> str:
+        years = max(int(history_years or 20), 1)
+        suffix = "year" if years == 1 else "years"
+        return f"Last {years} {suffix}"
 
     @callback(
         Output("overview-main-graph", "figure"),
@@ -111,10 +131,12 @@ def register_callbacks() -> None:
     @callback(
         Output("overview-historical-price-graph", "figure"),
         Input("store-request", "data"),
+        Input("overview-price-history-years-slider", "value"),
         Input("store-refresh-status", "data"),
     )
     def render_historical_price_chart(
         request_data: dict[str, Any] | None,
+        history_years: int | None,
         _refresh_status: dict[str, Any] | None,
     ) -> dict[str, Any]:
         ticker = str((request_data or {}).get("ticker", "")).upper().strip()
@@ -122,10 +144,11 @@ def register_callbacks() -> None:
             fig = build_historical_price_chart(ticker="", daily_price_df=pd.DataFrame(), theme="plotly_white")
             return fig.to_plotly_json()
         prices = read_table(get_settings(), "silver", "fact_price_daily", key=ticker)
+        start_date = resolve_price_history_start_date(prices, history_years)
         fig = build_historical_price_chart(
             ticker=ticker,
             daily_price_df=prices,
-            start_date="2000-01-01",
+            start_date=start_date,
             theme="plotly_white",
         )
         return fig.to_plotly_json()

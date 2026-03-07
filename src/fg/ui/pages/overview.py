@@ -6,7 +6,8 @@ import dash
 from dash import html
 
 from fg.settings import get_settings
-from fg.ui.components.controls import build_overview_controls
+from fg.storage.repositories import read_table
+from fg.ui.components.controls import build_overview_controls, build_ticker_options
 from fg.ui.components.graphs import (
     eps_graph_component,
     historical_price_graph_component,
@@ -19,6 +20,11 @@ def layout() -> html.Div:
     settings = get_settings()
     default_ticker = settings.ui_defaults.get("demo_default_ticker", "AAPL") if settings.is_demo_mode else ""
     default_lookback = int(settings.ui_defaults.get("default_lookback_years", 20))
+    ticker_options = build_ticker_options(
+        read_table(settings, "silver", "dim_company"),
+        fallback_tickers=settings.watchlist,
+        default_ticker=default_ticker,
+    )
     return html.Div(
         children=[
             html.Div(
@@ -37,11 +43,19 @@ def layout() -> html.Div:
                     ),
                 ],
             ),
-            build_overview_controls(default_ticker=default_ticker, default_lookback=default_lookback),
-            html.Div(id="overview-status-banner", className="row", children="No data loaded yet. Enter a ticker and click Refresh."),
+            build_overview_controls(
+                default_ticker=default_ticker,
+                default_lookback=default_lookback,
+                ticker_options=ticker_options,
+            ),
+            html.Div(
+                id="overview-status-banner",
+                className="row",
+                children="No data loaded yet. Select a ticker and click Refresh.",
+            ),
             html.Div(id="overview-kpi-grid", className="row"),
             main_graph_component(),
-            historical_price_graph_component(),
+            historical_price_graph_component(default_year_window=default_lookback),
             eps_graph_component(),
             html.Div(id="overview-freshness-badges", className="row"),
             html.Div(
