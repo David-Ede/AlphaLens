@@ -54,6 +54,41 @@ def build_main_chart(
     return fig
 
 
+def build_historical_price_chart(
+    ticker: str,
+    daily_price_df: pd.DataFrame,
+    start_date: str = "2000-01-01",
+    theme: str = "plotly_white",
+) -> go.Figure:
+    """Build split-adjusted daily price history chart starting at `start_date`."""
+    fig = go.Figure()
+    frame = daily_price_df.copy()
+    if not frame.empty:
+        frame["trade_date"] = pd.to_datetime(frame["trade_date"], errors="coerce")
+        frame["split_adjusted_close"] = pd.to_numeric(frame["split_adjusted_close"], errors="coerce")
+        frame = frame.dropna(subset=["trade_date", "split_adjusted_close"])
+        frame = frame[frame["trade_date"] >= pd.Timestamp(start_date)].sort_values("trade_date")
+    if not frame.empty:
+        fig.add_trace(
+            go.Scatter(
+                x=frame["trade_date"],
+                y=frame["split_adjusted_close"],
+                mode="lines",
+                name="split_adjusted_close",
+                line={"color": "#111827", "width": 2},
+                hovertemplate="%{x|%Y-%m-%d}<br>$%{y:.2f}<extra></extra>",
+            )
+        )
+    fig.update_layout(
+        template=theme,
+        title=f"{ticker.upper()} Price History Since {pd.Timestamp(start_date).year}",
+        margin={"l": 40, "r": 20, "t": 50, "b": 40},
+        xaxis_title="Date",
+        yaxis_title="Split-adjusted close (USD)",
+    )
+    return fig
+
+
 def build_eps_bar_chart(eps_bars_df: pd.DataFrame, theme: str = "plotly_white") -> go.Figure:
     """Build EPS companion bar chart."""
     fig = go.Figure()

@@ -7,7 +7,11 @@ from dash import html
 
 from fg.settings import get_settings
 from fg.ui.components.controls import build_overview_controls
-from fg.ui.components.graphs import eps_graph_component, main_graph_component
+from fg.ui.components.graphs import (
+    eps_graph_component,
+    historical_price_graph_component,
+    main_graph_component,
+)
 
 
 def layout() -> html.Div:
@@ -37,6 +41,7 @@ def layout() -> html.Div:
             html.Div(id="overview-status-banner", className="row", children="No data loaded yet. Enter a ticker and click Refresh."),
             html.Div(id="overview-kpi-grid", className="row"),
             main_graph_component(),
+            historical_price_graph_component(),
             eps_graph_component(),
             html.Div(id="overview-freshness-badges", className="row"),
             html.Div(

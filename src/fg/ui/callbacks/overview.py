@@ -7,9 +7,14 @@ from typing import Any
 import pandas as pd
 from dash import Input, Output, callback, html
 
-from fg.services.chart_service import build_eps_bar_chart, build_main_chart
+from fg.services.chart_service import (
+    build_eps_bar_chart,
+    build_historical_price_chart,
+    build_main_chart,
+)
 from fg.services.refresh_service import RefreshService
 from fg.settings import get_settings
+from fg.storage.repositories import read_table
 from fg.ui.components.cards import build_kpi_cards
 
 
@@ -99,6 +104,28 @@ def register_callbacks() -> None:
             ticker=str(meta.get("ticker", "")),
             issuer_name=str(meta.get("issuer_name", "")),
             series_df=frame,
+            theme="plotly_white",
+        )
+        return fig.to_plotly_json()
+
+    @callback(
+        Output("overview-historical-price-graph", "figure"),
+        Input("store-request", "data"),
+        Input("store-refresh-status", "data"),
+    )
+    def render_historical_price_chart(
+        request_data: dict[str, Any] | None,
+        _refresh_status: dict[str, Any] | None,
+    ) -> dict[str, Any]:
+        ticker = str((request_data or {}).get("ticker", "")).upper().strip()
+        if not ticker:
+            fig = build_historical_price_chart(ticker="", daily_price_df=pd.DataFrame(), theme="plotly_white")
+            return fig.to_plotly_json()
+        prices = read_table(get_settings(), "silver", "fact_price_daily", key=ticker)
+        fig = build_historical_price_chart(
+            ticker=ticker,
+            daily_price_df=prices,
+            start_date="2000-01-01",
             theme="plotly_white",
         )
         return fig.to_plotly_json()
