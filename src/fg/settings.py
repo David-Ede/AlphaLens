@@ -51,7 +51,7 @@ class Settings(BaseSettings):
 
     def load_yaml(self, root: Path | None = None) -> None:
         """Load YAML config files into settings."""
-        base = root or Path.cwd()
+        base = _resolve_runtime_root(root)
         self.app_config = _read_yaml(base / "conf" / "app.yml")
         self.metrics_config = _read_yaml(base / "conf" / "metrics.yml")
         self.concept_map_config = _read_yaml(base / "conf" / "concept_map.yml")
@@ -146,11 +146,34 @@ def _read_yaml(path: Path) -> dict[str, Any]:
     return data
 
 
+def _resolve_runtime_root(start: Path | None = None) -> Path:
+    candidate = (start or Path.cwd()).resolve()
+    module_root = Path(__file__).resolve().parents[2]
+    seen: set[Path] = set()
+    for base in [candidate, *candidate.parents, module_root]:
+        if base in seen:
+            continue
+        seen.add(base)
+        if (base / "conf" / "app.yml").exists():
+            return base
+    return module_root
+
+
+def _resolve_runtime_path(root: Path, raw_path: str) -> str:
+    path = Path(raw_path)
+    if path.is_absolute():
+        return str(path)
+    return str((root / path).resolve())
+
+
 @lru_cache(maxsize=1)
 def get_settings() -> Settings:
     """Create and cache settings instance."""
-    settings = Settings()
-    settings.load_yaml()
+    root = _resolve_runtime_root()
+    settings = Settings(_env_file=root / ".env")
+    settings.data_root = _resolve_runtime_path(root, settings.data_root)
+    settings.duckdb_path = _resolve_runtime_path(root, settings.duckdb_path)
+    settings.load_yaml(root=root)
     settings.ensure_data_dirs()
     if settings.sec_user_agent.strip() == "" and settings.app_env.lower() != "demo":
         # Live SEC mode requires explicit User-Agent.
