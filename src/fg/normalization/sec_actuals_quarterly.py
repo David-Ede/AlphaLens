@@ -32,7 +32,8 @@ def normalize_sec_quarterly(
     for record in _iter_quarterly_rows(companyfacts):
         duration_days = int(record.get("duration_days", 90))
         form_type = str(record.get("form_type", "10-Q"))
-        if not is_quarterly_form(form_type, duration_days):
+        confidence = str(record.get("confidence", "reported"))
+        if confidence != "derived" and not is_quarterly_form(form_type, duration_days):
             continue
         rows.append(
             {
@@ -49,7 +50,7 @@ def normalize_sec_quarterly(
                 "accession_no": str(record.get("accession_no", "")),
                 "taxonomy": str(record.get("taxonomy", "us-gaap")),
                 "concept": str(record.get("concept", "")),
-                "confidence": str(record.get("confidence", "reported")),
+                "confidence": confidence,
                 "amended": bool(record.get("amended", False)),
                 "source_name": "sec",
                 "raw_record_hash": sha256(str(record).encode("utf-8")).hexdigest(),
