@@ -133,6 +133,115 @@ def test_refresh_service_handles_fmp_failure(settings: Settings, monkeypatch: py
     assert result["rows"]["estimates"] == 0
 
 
+def test_refresh_service_canonicalizes_live_sec_companyfacts(
+    settings: Settings,
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    company = CompanyRef(
+        company_key="0000000001",
+        ticker="TEST",
+        issuer_name="Test Co",
+        exchange="NASDAQ",
+        fiscal_year_end_mmdd="0930",
+    )
+
+    raw_payload = {
+        "cik": "0000000001",
+        "entityName": "Test Co",
+        "facts": {
+            "us-gaap": {
+                "RevenueFromContractWithCustomerExcludingAssessedTax": {
+                    "units": {
+                        "USD": [
+                            _fact("2023-10-01", "2023-12-30", 200.0, 2024, "Q1", "10-Q", "2024-02-01"),
+                            _fact("2023-10-01", "2024-03-30", 450.0, 2024, "Q2", "10-Q", "2024-05-01"),
+                            _fact("2023-10-01", "2024-06-29", 700.0, 2024, "Q3", "10-Q", "2024-08-01"),
+                            _fact("2023-10-01", "2024-09-28", 1000.0, 2024, "FY", "10-K", "2024-11-01"),
+                        ]
+                    }
+                },
+                "NetIncomeLoss": {
+                    "units": {
+                        "USD": [
+                            _fact("2023-10-01", "2023-12-30", 20.0, 2024, "Q1", "10-Q", "2024-02-01"),
+                            _fact("2023-10-01", "2024-03-30", 45.0, 2024, "Q2", "10-Q", "2024-05-01"),
+                            _fact("2023-10-01", "2024-06-29", 70.0, 2024, "Q3", "10-Q", "2024-08-01"),
+                            _fact("2023-10-01", "2024-09-28", 100.0, 2024, "FY", "10-K", "2024-11-01"),
+                        ]
+                    }
+                },
+                "WeightedAverageNumberOfDilutedSharesOutstanding": {
+                    "units": {
+                        "shares": [
+                            _fact("2023-10-01", "2023-12-30", 50.0, 2024, "Q1", "10-Q", "2024-02-01"),
+                            _fact("2023-12-31", "2024-03-30", 50.0, 2024, "Q2", "10-Q", "2024-05-01"),
+                            _fact("2024-03-31", "2024-06-29", 50.0, 2024, "Q3", "10-Q", "2024-08-01"),
+                            _fact("2023-10-01", "2024-09-28", 50.0, 2024, "FY", "10-K", "2024-11-01"),
+                        ]
+                    }
+                },
+            }
+        },
+    }
+
+    prices = pd.DataFrame(
+        [
+            {
+                "company_key": "0000000001",
+                "ticker": "TEST",
+                "trade_date": "2024-09-27",
+                "open": 28.0,
+                "high": 30.0,
+                "low": 27.0,
+                "close": 29.0,
+                "split_adjusted_close": 29.0,
+                "volume": 1_000_000,
+                "currency": "USD",
+                "source_name": "yahoo",
+            },
+            {
+                "company_key": "0000000001",
+                "ticker": "TEST",
+                "trade_date": "2024-10-31",
+                "open": 30.0,
+                "high": 32.0,
+                "low": 29.0,
+                "close": 31.0,
+                "split_adjusted_close": 31.0,
+                "volume": 1_100_000,
+                "currency": "USD",
+                "source_name": "yahoo",
+            },
+        ]
+    )
+    actions = pd.DataFrame()
+
+    monkeypatch.setattr("fg.services.refresh_service.resolve_company", lambda **kwargs: company)
+    monkeypatch.setattr(
+        "fg.services.refresh_service.ingest_sec",
+        lambda **kwargs: (
+            {"name": "Test Co", "exchange": "NASDAQ", "fiscal_year_end_mmdd": "0930"},
+            raw_payload,
+        ),
+    )
+    monkeypatch.setattr("fg.services.refresh_service.ingest_yahoo", lambda **kwargs: (prices, actions))
+    monkeypatch.setattr(
+        "fg.services.refresh_service.ingest_fmp",
+        lambda **kwargs: {"ticker": "TEST", "as_of_date": "2024-11-01", "period": "annual", "rows": []},
+    )
+
+    service = RefreshService(settings)
+    result = service.refresh_ticker(
+        RefreshRequest(ticker="TEST", lookback_years=20, pe_method=PEMethod.STATIC_15),
+        fixture_mode=False,
+    )
+
+    assert result["ticker"] == "TEST"
+    assert result["rows"]["annual"] > 0
+    assert result["rows"]["series"] > 0
+    assert result["rows"]["kpi"] == 1
+
+
 def _fact(
     start: str,
     end: str,

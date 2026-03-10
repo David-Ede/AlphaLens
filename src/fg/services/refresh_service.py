@@ -11,7 +11,7 @@ from typing import Any
 import pandas as pd
 
 from fg.domain.enums import PEMethod
-from fg.domain.models import RefreshRequest, ViewModel, ViewModelMeta
+from fg.domain.models import CompanyRef, RefreshRequest, ViewModel, ViewModelMeta
 from fg.ingestion.fmp_ingest import empty_estimate_payload, ingest_fmp
 from fg.ingestion.resolve_company import resolve_company
 from fg.ingestion.sec_ingest import ingest_sec
@@ -26,6 +26,7 @@ from fg.normalization.market_data import normalize_market_data
 from fg.normalization.quality_checks import run_quality_checks
 from fg.normalization.sec_actuals_annual import normalize_sec_annual
 from fg.normalization.sec_actuals_quarterly import normalize_sec_quarterly
+from fg.pipelines import canonicalize_companyfacts_payload
 from fg.settings import Settings, get_settings
 from fg.storage.repositories import read_table, upsert_table
 
@@ -49,10 +50,17 @@ class RefreshService:
             ticker=request.ticker,
             fixture_mode=use_fixtures,
         )
-        _submissions, companyfacts = ingest_sec(
+        submissions, companyfacts = ingest_sec(
             settings=self.settings,
             company=company,
             fixture_mode=use_fixtures,
+        )
+        company = _refresh_company_metadata(self.settings, company, submissions)
+        canonical_facts = canonicalize_companyfacts_payload(
+            payload=companyfacts,
+            company=company,
+            concept_map=self.settings.concept_map_config,
+            metrics_config=self.settings.metrics_config,
         )
         prices, actions = ingest_yahoo(
             settings=self.settings,
@@ -71,8 +79,8 @@ class RefreshService:
             estimate_available = False
         self._update_dim_pulls(company.company_key, include_fmp=estimate_available)
 
-        annual = normalize_sec_annual(self.settings, company.company_key, companyfacts)
-        quarterly, _ttm = normalize_sec_quarterly(self.settings, company.company_key, companyfacts)
+        annual = normalize_sec_annual(self.settings, company.company_key, canonical_facts)
+        quarterly, _ttm = normalize_sec_quarterly(self.settings, company.company_key, canonical_facts)
         daily, _actions, _monthly = normalize_market_data(
             self.settings,
             company.company_key,
@@ -263,5 +271,50 @@ def _series_records(series: pd.DataFrame, name: str) -> list[dict[str, Any]]:
     if series.empty:
         return []
     return series[series["series_name"] == name].to_dict(orient="records")
+
+
+def _refresh_company_metadata(
+    settings: Settings,
+    company: CompanyRef,
+    submissions: dict[str, Any],
+) -> CompanyRef:
+    fiscal_year_end = _normalize_fiscal_year_end(
+        submissions.get("fiscalYearEnd") or submissions.get("fiscal_year_end_mmdd"),
+        company.fiscal_year_end_mmdd,
+    )
+    issuer_name = str(
+        submissions.get("issuer_name")
+        or submissions.get("name")
+        or submissions.get("entityName")
+        or company.issuer_name
+    )
+    exchange = str(submissions.get("exchange") or company.exchange or "UNKNOWN")
+    updated = company.model_copy(
+        update={
+            "issuer_name": issuer_name,
+            "exchange": exchange,
+            "fiscal_year_end_mmdd": fiscal_year_end,
+        }
+    )
+    dim = read_table(settings, "silver", "dim_company", key=company.company_key)
+    if dim.empty:
+        return updated
+    dim.loc[:, "issuer_name"] = updated.issuer_name
+    dim.loc[:, "exchange"] = updated.exchange
+    dim.loc[:, "fiscal_year_end_mmdd"] = updated.fiscal_year_end_mmdd
+    upsert_table(
+        settings=settings,
+        layer="silver",
+        table_name="dim_company",
+        key=company.company_key,
+        df=dim,
+        dedupe_keys=["company_key"],
+    )
+    return updated
+
+
+def _normalize_fiscal_year_end(value: Any, default: str) -> str:
+    text = "".join(ch for ch in str(value or default) if ch.isdigit())
+    return text if len(text) == 4 else default
 
 
